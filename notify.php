@@ -1,11 +1,6 @@
 <?php
 
-echo "STEP 1 - PHP START\n";
-
 $webhook = getenv('DISCORD_WEBHOOK');
-
-echo "WEBHOOK:\n";
-var_dump(getenv('DISCORD_WEBHOOK'));
 
 if (!$webhook) {
     exit('Webhook not found');
