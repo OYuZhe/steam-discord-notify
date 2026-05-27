@@ -3,7 +3,7 @@ name: Steam 中文更新通知
 on:
   schedule:
     - cron: '0 1 * * *'  # 每天 09:00 台灣時間（UTC+8）
-  workflow_dispatch:      # 保留手動觸發方便測試
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,7 +22,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
-          extensions: curl
+          extensions: curl, mbstring
 
       - name: Run notify
         env:
@@ -35,5 +35,9 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add languages.json meta.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "chore: update language data [skip ci]"
-          git diff HEAD~1 --quiet 2>/dev/null || git push
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update language data [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
