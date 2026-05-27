@@ -1,5 +1,7 @@
 <?php
 
+echo "STEP 1 - PHP START\n";
+
 $webhook = getenv('DISCORD_WEBHOOK');
 
 echo "WEBHOOK:\n";
