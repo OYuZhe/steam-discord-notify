@@ -2,6 +2,7 @@
 
 // ===== 設定 =====
 $webhook     = getenv('DISCORD_WEBHOOK');
+$steamApiKey = getenv('STEAM_API_KEY');
 $minReviews  = 50;
 $seedPages   = 10;       // 首次執行：掃描 SteamSpy 前 10 頁（共約 10,000 款遊戲）
 $dataFile    = 'languages.json';
@@ -10,6 +11,9 @@ $chineseKeys = ['Simplified Chinese', 'Traditional Chinese'];
 
 if (!$webhook) {
     exit('[ERROR] DISCORD_WEBHOOK 未設定' . PHP_EOL);
+}
+if (!$steamApiKey) {
+    exit('[ERROR] STEAM_API_KEY 未設定' . PHP_EOL);
 }
 
 // ===== 讀取 meta & 語系資料 =====
@@ -21,7 +25,7 @@ $isFirstRun       = ($lastChangeNumber === 0);
 
 // ===== 取得目前 Steam change number =====
 echo '[INFO] 查詢 Steam GetAppChanges...' . PHP_EOL;
-$changesRaw = @file_get_contents("https://api.steampowered.com/ISteamApps/GetAppChanges/v1/?changeNumber={$lastChangeNumber}");
+$changesRaw = @file_get_contents("https://api.steampowered.com/ISteamApps/GetAppChanges/v1/?changeNumber={$lastChangeNumber}&key={$steamApiKey}");
 
 if (!$changesRaw) {
     exit('[ERROR] 無法連接 Steam API' . PHP_EOL);
