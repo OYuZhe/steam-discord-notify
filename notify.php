@@ -16,9 +16,13 @@ if (!$steamApiKey) {
     exit('[ERROR] STEAM_API_KEY 未設定' . PHP_EOL);
 }
 
-// ===== 讀取 meta & 語系資料 =====
+// ===== 讀取 meta & 語系資料（確保檔案一定存在）=====
 $meta   = file_exists($metaFile) ? (json_decode(file_get_contents($metaFile), true) ?? []) : [];
 $stored = file_exists($dataFile) ? (json_decode(file_get_contents($dataFile), true) ?? []) : [];
+
+// 確保檔案存在，讓 git add 不會報錯
+if (!file_exists($dataFile)) file_put_contents($dataFile, '{}');
+if (!file_exists($metaFile)) file_put_contents($metaFile, '{}');
 
 $lastChangeNumber = (int)($meta['last_change_number'] ?? 0);
 $isFirstRun       = ($lastChangeNumber === 0);
