@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add languages.json meta.json
+          git add languages.json meta.json 2>/dev/null || true
           git diff --staged --quiet || git commit -m "chore: update language data [skip ci]"
-          git push
+          git diff HEAD~1 --quiet 2>/dev/null || git push
