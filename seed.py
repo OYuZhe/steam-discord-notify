@@ -1,13 +1,18 @@
 import json
+import sys
 import time
 from datetime import date
 from pathlib import Path
 
+print('[INFO] 載入套件...', flush=True)
 import requests
+print('[INFO] requests 載入完成', flush=True)
 from steam.client import SteamClient
+print('[INFO] steam.client 載入完成', flush=True)
 
 DATA_FILE   = Path(__file__).parent / 'languages.json'
 MIN_REVIEWS = 20
+
 
 stored = json.loads(DATA_FILE.read_text('utf-8')) if DATA_FILE.exists() else {}
 
