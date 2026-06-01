@@ -4,24 +4,51 @@ import time
 from datetime import date
 from pathlib import Path
 
+import os
+
 import requests
-from steam.client import SteamClient
+
+STEAM_API_KEY = os.environ.get('STEAM_API_KEY', '').strip()
+if not STEAM_API_KEY:
+    raise SystemExit('[ERROR] STEAM_API_KEY 未設定')
 
 DATA_FILE = Path(__file__).parent / 'languages.json'
 
 stored = json.loads(DATA_FILE.read_text('utf-8')) if DATA_FILE.exists() else {}
 
 # ===== 連線 Steam（取 appid 清單用）=====
-print('[INFO] 連線 Steam CM...', flush=True)
-client = SteamClient()
-client.anonymous_login()
-print('[INFO] 連線成功', flush=True)
+print('[INFO] 透過 IStoreService/GetAppList 取得全量 App 清單...', flush=True)
+all_appids_set = set()
+last_appid = 0
 
-print('[INFO] 透過 PICS 取得全量 App 清單...', flush=True)
-changes = client.get_changes_since(1, app_changes=True, package_changes=False)
-client.disconnect()
+while True:
+    params = {
+        'key':           STEAM_API_KEY,
+        'include_games': 'true',
+        'max_results':   50000,
+    }
+    if last_appid:
+        params['last_appid'] = last_appid
 
-all_appids = [c.appid for c in changes.app_changes if str(c.appid) not in stored]
+    try:
+        r = requests.get('https://api.steampowered.com/IStoreService/GetAppList/v1/', params=params, timeout=30)
+        r.raise_for_status()
+        data = r.json().get('response', {})
+        apps = data.get('apps', [])
+        for a in apps:
+            all_appids_set.add(a['appid'])
+        print(f'[INFO] 已取得 {len(all_appids_set)} 個 appid...', flush=True)
+
+        if not data.get('have_more_results'):
+            break
+        last_appid = data.get('last_appid', 0)
+        time.sleep(1)
+    except Exception as e:
+        print(f'[WARN] GetAppList 失敗：{e}')
+        break
+
+print(f'[INFO] 共取得 {len(all_appids_set)} 個 appid', flush=True)
+all_appids = [a for a in all_appids_set if str(a) not in stored]
 print(f'[INFO] 共 {len(all_appids)} 個 appid 待查（已跳過 {len(stored)} 個已有記錄）', flush=True)
 
 CHINESE_STORE_KEYS = {'Simplified Chinese', 'Traditional Chinese'}
