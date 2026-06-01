@@ -1,2 +1,3 @@
-steam[client]
 requests
+pandas
+pyarrow
