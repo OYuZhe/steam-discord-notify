@@ -13,15 +13,14 @@ print('[INFO] steam.client 載入完成', flush=True)
 DATA_FILE   = Path(__file__).parent / 'languages.json'
 MIN_REVIEWS = 20
 
-
 stored = json.loads(DATA_FILE.read_text('utf-8')) if DATA_FILE.exists() else {}
 
 # ===== 透過 SteamSpy 取得所有 appid =====
-print('[INFO] 透過 SteamSpy 取得 App 清單...')
+print('[INFO] 透過 SteamSpy 取得 App 清單...', flush=True)
 all_appids_set = set(int(k) for k in stored)
 page = 0
 while True:
-    print(f'[INFO] SteamSpy 第 {page + 1} 頁...')
+    print(f'[INFO] SteamSpy 第 {page + 1} 頁...', flush=True)
     try:
         r = requests.get(f'https://steamspy.com/api.php?request=all&page={page}', timeout=20)
         games = r.json()
@@ -39,10 +38,10 @@ all_appids = [a for a in all_appids_set if str(a) not in stored]
 print(f'[INFO] 共 {len(all_appids)} 個 appid 待查（已跳過 {len(stored)} 個已有記錄）')
 
 # ===== 連線 Steam =====
-print('[INFO] 連線 Steam CM...')
+print('[INFO] 連線 Steam CM...', flush=True)
 client = SteamClient()
 client.anonymous_login()
-print('[INFO] 連線成功')
+print('[INFO] 連線成功', flush=True)
 
 CHINESE_KEYS = {'schinese', 'tchinese'}
 batch_size   = 250
