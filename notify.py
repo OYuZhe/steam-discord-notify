@@ -75,38 +75,44 @@ if not changed_appids:
     print('[INFO] 本次無任何 App 更新')
     raise SystemExit(0)
 
-# 已知有中文的跳過
+SKIP_TYPES = {'dlc', 'music', 'demo', 'advertising', 'mod', 'video'}
+
 to_check = [appid for appid in changed_appids
-            if not stored.get(str(appid), {}).get('has_chinese')]
+            if not stored.get(str(appid), {}).get('has_chinese')
+            and stored.get(str(appid), {}).get('app_type', 'game') not in SKIP_TYPES]
 
 print(f'[INFO] 實際需查詢：{len(to_check)} 個（跳過已知有中文）')
 
+STORE_SLEEP = 2.0  # 每筆間隔秒數
+
 # ===== 逐一用 Store API 查詢語系 =====
 def get_store_info(appid: int) -> tuple:
-    try:
-        r = requests.get(
-            f'https://store.steampowered.com/api/appdetails?appids={appid}',
-            timeout=15
-        )
-        if r.status_code == 429:
-            print('  [WARN] Store API 速率限制，等待 60 秒...', flush=True)
-            time.sleep(60)
-            r = requests.get(
-                f'https://store.steampowered.com/api/appdetails?appids={appid}',
-                timeout=15
-            )
-        data = r.json()
-        if not data or not data.get(str(appid), {}).get('success'):
+    url = f'https://store.steampowered.com/api/appdetails?appids={appid}'
+    wait = 60
+    for attempt in range(3):
+        try:
+            r = requests.get(url, timeout=15)
+            if r.status_code == 429:
+                print(f'  [WARN] 速率限制，等待 {wait} 秒...', flush=True)
+                time.sleep(wait)
+                wait *= 2
+                continue
+            data = r.json()
+            if not data or not data.get(str(appid), {}).get('success'):
+                return None, None, []
+            app_data = data[str(appid)]['data']
+            release  = app_data.get('release_date', {})
+            if release.get('coming_soon') or not release.get('date'):
+                return 'coming_soon', app_data.get('name', f'App {appid}'), []
+            app_type  = app_data.get('type', '').lower()
+            name      = app_data.get('name', f'App {appid}')
+            raw_langs = app_data.get('supported_languages', '')
+            langs     = [l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')]
+            return app_type, name, langs
+        except Exception as e:
+            print(f'  [WARN] Store API 失敗：{e}', flush=True)
             return None, None, []
-        app_data  = data[str(appid)]['data']
-        app_type  = app_data.get('type', '').lower()
-        name      = app_data.get('name', f'App {appid}')
-        raw_langs = app_data.get('supported_languages', '')
-        langs     = [l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')]
-        return app_type, name, langs
-    except Exception as e:
-        print(f'  [WARN] Store API 失敗：{e}')
-        return None, None, []
+    return None, None, []
 
 new_chinese_list = []
 notified = set()
@@ -119,12 +125,19 @@ for i, appid in enumerate(to_check, 1):
     app_type, name, langs = get_store_info(appid)
 
     if app_type is None:
-        time.sleep(0.5)
+        time.sleep(STORE_SLEEP)
         continue
 
     if app_type != 'game':
-        print(f'  → 非遊戲（{app_type}），跳過')
-        time.sleep(0.3)
+        label = '尚未發售' if app_type == 'coming_soon' else f'非遊戲（{app_type}）'
+        print(f'  → {label}，跳過')
+        stored[appid_str] = {
+            'name':         name,
+            'has_chinese':  False,
+            'app_type':     app_type,
+            'last_checked': today,
+        }
+        time.sleep(STORE_SLEEP)
         continue
 
     has_chinese = bool(set(langs) & CHINESE_STORE_KEYS)
@@ -167,7 +180,7 @@ for i, appid in enumerate(to_check, 1):
         'last_checked': today,
     }
 
-    time.sleep(0.5)
+    time.sleep(STORE_SLEEP)
 
 DATA_FILE.write_text(json.dumps(stored, indent=2, ensure_ascii=False), 'utf-8')
 print(f'[INFO] languages.json 已更新，共記錄 {len(stored)} 款遊戲')
