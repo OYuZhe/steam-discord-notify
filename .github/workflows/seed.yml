@@ -27,6 +27,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run seed
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: python seed.py
 
       - name: Commit languages.json
