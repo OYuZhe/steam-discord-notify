@@ -18,7 +18,7 @@ client.anonymous_login()
 print('[INFO] 連線成功', flush=True)
 
 print('[INFO] 透過 PICS 取得全量 App 清單...', flush=True)
-changes = client.get_changes_since(0, app_changes=True, package_changes=False)
+changes = client.get_changes_since(1, app_changes=True, package_changes=False)
 client.disconnect()
 
 all_appids = [c.appid for c in changes.app_changes if str(c.appid) not in stored]
