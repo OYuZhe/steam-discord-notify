@@ -30,6 +30,7 @@ jobs:
       - name: Run notify
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
         run: python notify.py
 
       - name: Commit updated files
