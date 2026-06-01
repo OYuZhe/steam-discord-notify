@@ -11,22 +11,26 @@ MIN_REVIEWS = 20
 
 stored = json.loads(DATA_FILE.read_text('utf-8')) if DATA_FILE.exists() else {}
 
-# ===== 取得所有 appid =====
-print('[INFO] 取得 Steam 全部 App 清單...')
-for attempt in range(3):
+# ===== 透過 SteamSpy 取得所有 appid =====
+print('[INFO] 透過 SteamSpy 取得 App 清單...')
+all_appids_set = set(int(k) for k in stored)
+page = 0
+while True:
+    print(f'[INFO] SteamSpy 第 {page + 1} 頁...')
     try:
-        r = requests.get('https://api.steampowered.com/ISteamApps/GetAppList/v2/', timeout=30)
-        all_apps = r.json()['applist']['apps']
-        break
+        r = requests.get(f'https://steamspy.com/api.php?request=all&page={page}', timeout=20)
+        games = r.json()
+        if not games:
+            break
+        for appid in games:
+            all_appids_set.add(int(appid))
     except Exception as e:
-        print(f'[WARN] 取得 App 清單失敗（第 {attempt + 1} 次）：{e}')
-        print(f'[WARN] HTTP 狀態碼：{r.status_code}，回傳內容：{r.text[:500]}')
-        if attempt == 2:
-            raise SystemExit('[ERROR] 無法取得 App 清單，請稍後重試')
-        time.sleep(10)
-else:
-    all_apps = []
-all_appids = [a['appid'] for a in all_apps if a['appid'] not in [int(k) for k in stored]]
+        print(f'[WARN] 第 {page} 頁失敗：{e}，停止翻頁')
+        break
+    page += 1
+    time.sleep(2)
+
+all_appids = [a for a in all_appids_set if str(a) not in stored]
 print(f'[INFO] 共 {len(all_appids)} 個 appid 待查（已跳過 {len(stored)} 個已有記錄）')
 
 # ===== 連線 Steam =====
