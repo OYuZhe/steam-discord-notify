@@ -192,31 +192,45 @@ if not new_chinese_list:
 
 print(f'[INFO] 推播 {len(new_chinese_list)} 款遊戲到 Discord...')
 
+BATCH_SIZE = 25
+total      = len(new_chinese_list)
+today_str  = datetime.now().strftime('%Y-%m-%d')
+
+lines = []
 for game in new_chinese_list:
     review_total = game['positive'] + game['negative']
     rate = round(game['positive'] / review_total * 100) if review_total > 0 else 0
+    url  = f"https://store.steampowered.com/app/{game['appid']}/"
+    lines.append(f"🎮 [{game['name']}]({url})　👍 {game['positive']} 👎 {game['negative']}（好評率 {rate}%）")
+
+batches     = [lines[i:i + BATCH_SIZE] for i in range(0, total, BATCH_SIZE)]
+batch_count = len(batches)
+
+for idx, batch in enumerate(batches):
+    is_first = idx == 0
+    part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
+    title    = f'🌏 今日新增中文支援：共 {total} 款遊戲 {part_str}' if is_first else f'🌏 新增中文支援（續）{part_str}'
 
     payload = {
         'embeds': [{
-            'title':     f"🎮 新增中文支援：{game['name']}"[:256],
-            'url':       f"https://store.steampowered.com/app/{game['appid']}/",
-            'color':     5763719,
-            'fields': [
-                {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
-                {'name': '🌐 支援語系', 'value': game['langs'][:1000] or '（無資料）', 'inline': False},
-            ],
-            'timestamp': datetime.now(timezone.utc).isoformat(),
+            'title':       title[:256],
+            'description': '\n'.join(batch),
+            'color':       5763719,
+            'footer':      {'text': today_str},
+            'timestamp':   datetime.now(timezone.utc).isoformat(),
         }]
     }
 
     r = requests.post(WEBHOOK, json=payload, timeout=10)
     if r.status_code == 429:
-        print('[WARN] Discord 速率限制，等待 5 秒...')
+        print(f'[WARN] Discord 速率限制，等待 5 秒...')
         time.sleep(5)
-        requests.post(WEBHOOK, json=payload, timeout=10)
-    elif r.status_code >= 400:
-        print(f"[WARN] Discord 推播失敗（HTTP {r.status_code}）：{game['name']}")
-    else:
-        print(f"[NOTIFY] 已推播：{game['name']}")
+        r = requests.post(WEBHOOK, json=payload, timeout=10)
 
-    time.sleep(2)
+    if r.status_code >= 400:
+        print(f'[WARN] Discord 推播失敗（HTTP {r.status_code}，第 {idx + 1} 則）')
+    else:
+        print(f'[NOTIFY] 已推播第 {idx + 1} 則（{len(batch)} 款）')
+
+    if idx < batch_count - 1:
+        time.sleep(2)
