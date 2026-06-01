@@ -2,9 +2,9 @@
 seed.py — 從 FronkonGames 資料集建立語系基準
 
 資料來源：https://huggingface.co/datasets/FronkonGames/steam-games-dataset
-截止日：2025-02-02（124,146 筆）
+截止日：2026-02-02（124,146 筆）
 
-2025-02-02 之後新增中文的遊戲，只要該遊戲日後有任何 Store 更新，
+2026-02-02 之後新增中文的遊戲，只要該遊戲日後有任何 Store 更新，
 notify.py 就會在當天偵測到並推播。
 """
 
@@ -19,7 +19,7 @@ import requests
 DATA_FILE = Path(__file__).parent / 'languages.json'
 PARQUET_URL = (
     'https://huggingface.co/datasets/FronkonGames/steam-games-dataset'
-    '/resolve/main/data/games.parquet'
+    '/resolve/main/data/train-00000-of-00001.parquet'
 )
 CHINESE_KEYS = {'Simplified Chinese', 'Traditional Chinese'}
 
@@ -59,7 +59,7 @@ def main() -> None:
         print(f'[INFO] 共 {len(df):,} 筆', flush=True)
 
         stored = {}
-        cutoff = '2025-02-02'
+        cutoff = '2026-02-02'
         for row in df.itertuples(index=False):
             appid_str = str(row.appID).strip()
             if not appid_str or appid_str == 'nan':
