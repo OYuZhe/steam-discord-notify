@@ -88,6 +88,13 @@ def get_store_info(appid: int) -> tuple:
             f'https://store.steampowered.com/api/appdetails?appids={appid}',
             timeout=15
         )
+        if r.status_code == 429:
+            print('  [WARN] Store API 速率限制，等待 60 秒...', flush=True)
+            time.sleep(60)
+            r = requests.get(
+                f'https://store.steampowered.com/api/appdetails?appids={appid}',
+                timeout=15
+            )
         data = r.json()
         if not data or not data.get(str(appid), {}).get('success'):
             return None, None, []
