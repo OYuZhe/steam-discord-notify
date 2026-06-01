@@ -18,17 +18,19 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          php-version: '8.2'
-          extensions: curl, mbstring
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run notify
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
-        run: php notify.php
+        run: python notify.py
 
       - name: Commit updated files
         run: |
