@@ -9,7 +9,7 @@ from steam.client import SteamClient
 
 # ===== 設定 =====
 WEBHOOK       = os.environ.get('DISCORD_WEBHOOK', '').strip()
-MIN_REVIEWS   = 50
+MIN_REVIEWS   = 20
 DATA_FILE     = Path(__file__).parent / 'languages.json'
 META_FILE     = Path(__file__).parent / 'meta.json'
 CHINESE_KEYS  = {'schinese', 'tchinese'}  # PICS 語系格式
