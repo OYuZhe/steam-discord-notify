@@ -20,9 +20,10 @@ for attempt in range(3):
         break
     except Exception as e:
         print(f'[WARN] 取得 App 清單失敗（第 {attempt + 1} 次）：{e}')
+        print(f'[WARN] HTTP 狀態碼：{r.status_code}，回傳內容：{r.text[:500]}')
         if attempt == 2:
             raise SystemExit('[ERROR] 無法取得 App 清單，請稍後重試')
-        time.sleep(5)
+        time.sleep(10)
 else:
     all_apps = []
 all_appids = [a['appid'] for a in all_apps if a['appid'] not in [int(k) for k in stored]]
