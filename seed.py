@@ -60,6 +60,13 @@ def get_store_info(appid: int) -> tuple[str | None, str | None, bool]:
             f'https://store.steampowered.com/api/appdetails?appids={appid}',
             timeout=15
         )
+        if r.status_code == 429:
+            print('  [WARN] Store API 速率限制，等待 60 秒...', flush=True)
+            time.sleep(60)
+            r = requests.get(
+                f'https://store.steampowered.com/api/appdetails?appids={appid}',
+                timeout=15
+            )
         data = r.json()
         if not data or not data.get(str(appid), {}).get('success'):
             return None, None, False
@@ -78,6 +85,9 @@ total = len(all_appids)
 for i, appid in enumerate(all_appids, 1):
     appid_str = str(appid)
 
+    if i % 100 == 0:
+        print(f'[INFO] 進度：{i}/{total}，已記錄 {len(stored)} 款遊戲', flush=True)
+
     name, app_type, has_chinese = get_store_info(appid)
 
     if app_type is None or app_type != 'game':
@@ -93,6 +103,13 @@ for i, appid in enumerate(all_appids, 1):
     if i % 500 == 0:
         DATA_FILE.write_text(json.dumps(stored, indent=2, ensure_ascii=False), 'utf-8')
         print(f'[INFO] 進度儲存（{i}/{total}，已記錄 {len(stored)} 款遊戲）', flush=True)
+        import subprocess
+        subprocess.run(['git', 'add', 'languages.json'], check=False)
+        result = subprocess.run(['git', 'diff', '--staged', '--quiet'], check=False)
+        if result.returncode != 0:
+            subprocess.run(['git', 'commit', '-m', f'chore: seed progress {i}/{total} [skip ci]'], check=False)
+            subprocess.run(['git', 'push'], check=False)
+            print(f'[INFO] 進度已 commit', flush=True)
 
     time.sleep(0.5)
 
