@@ -1,0 +1,42 @@
+name: 建立語系基準資料
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run seed
+        run: python seed.py
+
+      - name: Commit languages.json
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add languages.json
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: build language baseline [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
