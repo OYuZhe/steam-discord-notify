@@ -1,94 +1,73 @@
 import json
-import sys
+import re
 import time
 from datetime import date
 from pathlib import Path
 
-print('[INFO] 載入套件...', flush=True)
 import requests
-print('[INFO] requests 載入完成', flush=True)
 from steam.client import SteamClient
-print('[INFO] steam.client 載入完成', flush=True)
 
-DATA_FILE   = Path(__file__).parent / 'languages.json'
-MIN_REVIEWS = 20
+DATA_FILE = Path(__file__).parent / 'languages.json'
 
 stored = json.loads(DATA_FILE.read_text('utf-8')) if DATA_FILE.exists() else {}
 
-# ===== 透過 SteamSpy 取得所有 appid =====
-print('[INFO] 透過 SteamSpy 取得 App 清單...', flush=True)
-all_appids_set = set(int(k) for k in stored)
-page = 0
-while True:
-    print(f'[INFO] SteamSpy 第 {page + 1} 頁...', flush=True)
-    try:
-        r = requests.get(f'https://steamspy.com/api.php?request=all&page={page}', timeout=20)
-        games = r.json()
-        if not games:
-            break
-        for appid in games:
-            all_appids_set.add(int(appid))
-    except Exception as e:
-        print(f'[WARN] 第 {page} 頁失敗：{e}，停止翻頁')
-        break
-    page += 1
-    time.sleep(2)
-
-all_appids = [a for a in all_appids_set if str(a) not in stored]
-print(f'[INFO] 共 {len(all_appids)} 個 appid 待查（已跳過 {len(stored)} 個已有記錄）')
-
-# ===== 連線 Steam =====
+# ===== 連線 Steam（取 appid 清單用）=====
 print('[INFO] 連線 Steam CM...', flush=True)
 client = SteamClient()
 client.anonymous_login()
 print('[INFO] 連線成功', flush=True)
 
-CHINESE_KEYS = {'schinese', 'tchinese'}
-batch_size   = 250
-total        = len(all_appids)
-
-for i in range(0, total, batch_size):
-    batch = all_appids[i:i + batch_size]
-    print(f'[INFO] 查詢 PICS（{i}–{i + len(batch)}/{total}）...')
-
-    try:
-        info = client.get_product_info(apps=batch)
-    except Exception as e:
-        print(f'[WARN] PICS 查詢失敗：{e}，等待後重試...')
-        time.sleep(10)
-        try:
-            info = client.get_product_info(apps=batch)
-        except Exception as e2:
-            print(f'[WARN] 重試失敗，跳過此批次：{e2}')
-            continue
-
-    for appid in batch:
-        appid_str = str(appid)
-        app    = info.get('apps', {}).get(appid, {})
-        common = app.get('common', {})
-
-        if not common:
-            continue
-
-        if common.get('type', '').lower() != 'game':
-            continue
-
-        langs       = set((common.get('languages') or {}).keys())
-        has_chinese = bool(langs & CHINESE_KEYS)
-        name        = common.get('name', f'App {appid}')
-
-        stored[appid_str] = {
-            'name':         name,
-            'has_chinese':  has_chinese,
-            'last_checked': str(date.today()),
-        }
-
-    if (i // batch_size) % 10 == 0:
-        DATA_FILE.write_text(json.dumps(stored, indent=2, ensure_ascii=False), 'utf-8')
-        print(f'[INFO] 進度儲存（{i}/{total}，已記錄 {len(stored)} 款遊戲）')
-
-    time.sleep(1)
-
+print('[INFO] 透過 PICS 取得全量 App 清單...', flush=True)
+changes = client.get_changes_since(0, app_changes=True, package_changes=False)
 client.disconnect()
+
+all_appids = [c.appid for c in changes.app_changes if str(c.appid) not in stored]
+print(f'[INFO] 共 {len(all_appids)} 個 appid 待查（已跳過 {len(stored)} 個已有記錄）', flush=True)
+
+CHINESE_STORE_KEYS = {'Simplified Chinese', 'Traditional Chinese'}
+
+def get_store_info(appid: int) -> tuple[str | None, str | None, bool]:
+    """回傳 (name, app_type, has_chinese)，失敗回傳 (None, None, False)"""
+    try:
+        r = requests.get(
+            f'https://store.steampowered.com/api/appdetails?appids={appid}',
+            timeout=15
+        )
+        data = r.json()
+        if not data or not data.get(str(appid), {}).get('success'):
+            return None, None, False
+        app_data  = data[str(appid)]['data']
+        app_type  = app_data.get('type', '').lower()
+        name      = app_data.get('name', f'App {appid}')
+        raw_langs = app_data.get('supported_languages', '')
+        langs     = {l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
+        return name, app_type, bool(langs & CHINESE_STORE_KEYS)
+    except Exception as e:
+        print(f'  [WARN] Store API 失敗：{e}')
+        return None, None, False
+
+total = len(all_appids)
+
+for i, appid in enumerate(all_appids, 1):
+    appid_str = str(appid)
+
+    name, app_type, has_chinese = get_store_info(appid)
+
+    if app_type is None or app_type != 'game':
+        time.sleep(0.3)
+        continue
+
+    stored[appid_str] = {
+        'name':         name,
+        'has_chinese':  has_chinese,
+        'last_checked': str(date.today()),
+    }
+
+    if i % 500 == 0:
+        DATA_FILE.write_text(json.dumps(stored, indent=2, ensure_ascii=False), 'utf-8')
+        print(f'[INFO] 進度儲存（{i}/{total}，已記錄 {len(stored)} 款遊戲）', flush=True)
+
+    time.sleep(0.5)
+
 DATA_FILE.write_text(json.dumps(stored, indent=2, ensure_ascii=False), 'utf-8')
 print(f'[INFO] 基準建立完成，共記錄 {len(stored)} 款遊戲 ✅')
