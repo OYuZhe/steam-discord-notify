@@ -54,7 +54,7 @@ $isFirstRun       = ($lastChangeNumber === 0);
 // ===== 取得 Steam change number =====
 echo '[INFO] 查詢 Steam GetAppChanges...' . PHP_EOL;
 $changesRaw = httpGet(
-    "https://api.steampowered.com/ISteamApps/GetAppChanges/v1/?changeNumber={$lastChangeNumber}&key={$steamApiKey}"
+    "https://api.steampowered.com/ISteamApps/GetAppChanges/v2/?changeNumber={$lastChangeNumber}&key={$steamApiKey}"
 );
 
 if (!$changesRaw) {
