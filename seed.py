@@ -13,8 +13,18 @@ stored = json.loads(DATA_FILE.read_text('utf-8')) if DATA_FILE.exists() else {}
 
 # ===== 取得所有 appid =====
 print('[INFO] 取得 Steam 全部 App 清單...')
-r = requests.get('https://api.steampowered.com/ISteamApps/GetAppList/v2/', timeout=30)
-all_apps = r.json()['applist']['apps']
+for attempt in range(3):
+    try:
+        r = requests.get('https://api.steampowered.com/ISteamApps/GetAppList/v2/', timeout=30)
+        all_apps = r.json()['applist']['apps']
+        break
+    except Exception as e:
+        print(f'[WARN] 取得 App 清單失敗（第 {attempt + 1} 次）：{e}')
+        if attempt == 2:
+            raise SystemExit('[ERROR] 無法取得 App 清單，請稍後重試')
+        time.sleep(5)
+else:
+    all_apps = []
 all_appids = [a['appid'] for a in all_apps if a['appid'] not in [int(k) for k in stored]]
 print(f'[INFO] 共 {len(all_appids)} 個 appid 待查（已跳過 {len(stored)} 個已有記錄）')
 
