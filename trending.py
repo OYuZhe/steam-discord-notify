@@ -1,5 +1,5 @@
 """
-trending.py — 依模式從 Steam 取得熱門遊戲清單，篩選有中文支援的遊戲並推播到 Discord
+trending.py — 依模式從 Steam 取得熱門遊戲清單並推播到 Discord，顯示是否支援中文
 
 MODE 環境變數：
   Trending  (預設) 從 Steam New & Trending 分類取得遊戲
@@ -69,9 +69,9 @@ except Exception as e:
     raise SystemExit(f'[ERROR] 取得清單失敗：{e}')
 
 
-# ===== 逐一查詢 appdetails，篩選有中文的遊戲 =====
+# ===== 逐一查詢 appdetails =====
 def get_game_info(appid: str) -> dict | None:
-    """回傳遊戲資訊，無中文支援或查詢失敗時回傳 None"""
+    """回傳遊戲資訊，查詢失敗或非遊戲類型時回傳 None"""
     try:
         rd = requests.get(
             f'https://store.steampowered.com/api/appdetails?appids={appid}&l=tchinese',
@@ -84,16 +84,13 @@ def get_game_info(appid: str) -> dict | None:
 
         if app_data.get('type', '').lower() != 'game':
             return None
-        if app_data.get('is_free'):
-            return None
         release = app_data.get('release_date', {})
         if release.get('coming_soon') or not release.get('date'):
             return None
 
-        raw_langs = app_data.get('supported_languages', '')
-        langs     = {l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
-        if not langs & CHINESE_KEYS:
-            return None
+        raw_langs   = app_data.get('supported_languages', '')
+        langs       = {l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
+        has_chinese = bool(langs & CHINESE_KEYS)
 
         time.sleep(0.5)
 
@@ -110,6 +107,8 @@ def get_game_info(appid: str) -> dict | None:
         return {
             'appid':        appid,
             'name':         app_data.get('name', f'App {appid}'),
+            'has_chinese':  has_chinese,
+            'is_free':      app_data.get('is_free', False),
             'positive':     positive,
             'negative':     negative,
             'rate':         rate,
@@ -121,21 +120,20 @@ def get_game_info(appid: str) -> dict | None:
         return None
 
 
-print(f'[INFO] 查詢遊戲資訊與中文支援（共 {len(source_appids)} 款）...', flush=True)
+print(f'[INFO] 查詢遊戲資訊（共 {len(source_appids)} 款）...', flush=True)
 qualified = []
 
 for i, appid in enumerate(source_appids, 1):
     print(f'  [{i}/{len(source_appids)}] App {appid}...', flush=True)
     info = get_game_info(appid)
     if info:
-        print(f'    → ✅ {info["name"]}（有中文）', flush=True)
+        chinese_label = '✅ 有中文' if info['has_chinese'] else '❌ 無中文'
+        print(f'    → {info["name"]}（{chinese_label}）', flush=True)
         qualified.append(info)
     time.sleep(1)
 
-print(f'[INFO] 有中文支援：{len(qualified)} 款', flush=True)
-
 if not qualified:
-    raise SystemExit('[ERROR] 來源清單中沒有找到有中文支援的遊戲')
+    raise SystemExit('[ERROR] 無法取得任何遊戲資訊')
 
 total_pages = (len(qualified) + SAMPLE - 1) // SAMPLE
 page = max(1, min(PAGE, total_pages))
@@ -156,10 +154,13 @@ for i, game in enumerate(sample):
     appid = game['appid']
     url   = f'https://store.steampowered.com/app/{appid}/'
     img   = f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg'
-    title = f'🌏 預覽推播：Steam {mode_label} 中文遊戲' if i == 0 else game['name'][:256]
+    title         = f'🎮 Steam {mode_label} 熱門遊戲' if i == 0 else game['name'][:256]
+    chinese_label = '✅ 支援中文' if game['has_chinese'] else '❌ 不支援中文'
+    free_label    = '（免費）' if game['is_free'] else ''
 
     fields = [
-        {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {game['rate']}%）", 'inline': False},
+        {'name': '🌐 中文支援', 'value': chinese_label,                                                                        'inline': True},
+        {'name': '📊 評論',    'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {game['rate']}%）{free_label}", 'inline': False},
     ]
     if game.get('genres'):
         fields.append({'name': '🏷️ 類型',   'value': game['genres'],       'inline': True})
