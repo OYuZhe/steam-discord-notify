@@ -36,12 +36,14 @@ def fetch_trending() -> list[str]:
         timeout=15
     )
     r.raise_for_status()
-    data = r.json()
-    print(f'  [DEBUG] keys: {list(data.keys())}', flush=True)
-    items = data.get('items', [])
-    if items:
-        print(f'  [DEBUG] item[0] keys: {list(items[0].keys())}', flush=True)
-    return [str(item['id']) for item in items if item.get('id')]
+    items = r.json().get('items', [])
+    appids = []
+    for item in items:
+        logo = item.get('logo', '')
+        m = re.search(r'/apps/(\d+)/', logo)
+        if m:
+            appids.append(m.group(1))
+    return appids
 
 
 def fetch_hot() -> list[str]:
