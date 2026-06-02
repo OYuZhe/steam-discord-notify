@@ -1,3 +1,11 @@
+"""
+notify.py — 每日偵測新增繁/簡體中文支援的 Steam 遊戲並推播到 Discord
+
+流程：
+  1. IStoreService/GetAppList 取得自上次執行以來有變動的遊戲清單
+  2. 逐一查詢 Store API，比對語系是否從「無中文 → 有中文」
+  3. 符合條件者推播 Discord embed 通知
+"""
 import json
 import os
 import re
@@ -8,11 +16,11 @@ from pathlib import Path
 import requests
 
 # ===== 設定 =====
-WEBHOOK      = os.environ.get('DISCORD_WEBHOOK', '').strip()
+WEBHOOK       = os.environ.get('DISCORD_WEBHOOK', '').strip()
 STEAM_API_KEY = os.environ.get('STEAM_API_KEY', '').strip()
-MIN_REVIEWS  = 20
-DATA_FILE    = Path(__file__).parent / 'languages.json'
-META_FILE    = Path(__file__).parent / 'meta.json'
+MIN_REVIEWS   = 20
+DATA_FILE     = Path(__file__).parent / 'languages.json'
+META_FILE     = Path(__file__).parent / 'meta.json'
 
 CHINESE_STORE_KEYS = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
 
@@ -22,6 +30,7 @@ if not STEAM_API_KEY:
     raise SystemExit('[ERROR] STEAM_API_KEY 未設定')
 if not DATA_FILE.exists():
     raise SystemExit('[ERROR] languages.json 不存在，請先執行 seed.py 建立基準')
+
 
 # ===== 讀取狀態檔 =====
 meta   = json.loads(META_FILE.read_text('utf-8')) if META_FILE.exists() else {}
@@ -33,6 +42,7 @@ if not last_run_ts:
     last_run_ts = int((datetime.now(timezone.utc) - timedelta(hours=25)).timestamp())
 
 print(f'[INFO] 查詢 {datetime.fromtimestamp(last_run_ts, timezone.utc).strftime("%Y-%m-%d %H:%M")} 之後有變動的遊戲...', flush=True)
+
 
 # ===== 透過 IStoreService/GetAppList 取得有變動的遊戲 =====
 changed_appids = []
@@ -65,7 +75,7 @@ while True:
 
 print(f'[INFO] 有變動 App：{len(changed_appids)} 個')
 
-# 更新執行時間戳記
+# 更新執行時間戳記（在查詢前更新，避免重複通知）
 now_ts = int(datetime.now(timezone.utc).timestamp())
 meta['last_run_ts'] = now_ts
 meta['last_run']    = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -83,13 +93,15 @@ to_check = [appid for appid in changed_appids
 
 print(f'[INFO] 實際需查詢：{len(to_check)} 個（跳過已知有中文）')
 
-STORE_SLEEP = 2.0  # 每筆間隔秒數
+STORE_SLEEP = 2.0  # 每筆間隔秒數，避免觸發 Store API 速率限制
+
 
 # ===== 逐一用 Store API 查詢語系 =====
-def get_store_info(appid: int) -> tuple:
-    url = f'https://store.steampowered.com/api/appdetails?appids={appid}&l=tchinese'
+def get_store_info(appid: int) -> tuple[str | None, str | None, list, dict]:
+    """回傳 (app_type, name, langs, extra)；查詢失敗時 app_type 為 None。"""
+    url  = f'https://store.steampowered.com/api/appdetails?appids={appid}&l=tchinese'
     wait = 60
-    for attempt in range(3):
+    for _ in range(3):
         try:
             r = requests.get(url, timeout=15)
             if r.status_code == 429:
@@ -106,6 +118,7 @@ def get_store_info(appid: int) -> tuple:
                 return 'coming_soon', app_data.get('name', f'App {appid}'), [], {}
             app_type  = app_data.get('type', '').lower()
             name      = app_data.get('name', f'App {appid}')
+            # split('*')[0] 去掉星號（部分語音支援標記）及後方的備註文字
             raw_langs = app_data.get('supported_languages', '')
             langs     = [l.strip().split('*')[0].strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')]
             extra = {
@@ -120,6 +133,7 @@ def get_store_info(appid: int) -> tuple:
             print(f'  [WARN] Store API 失敗：{e}', flush=True)
             return None, None, [], {}
     return None, None, [], {}
+
 
 new_chinese_list = []
 notified = set()
@@ -139,23 +153,19 @@ for i, appid in enumerate(to_check, 1):
         label = '尚未發售' if app_type == 'coming_soon' else f'非遊戲（{app_type}）'
         print(f'  → {label}，跳過')
         stored[appid_str] = {
-            'name':         name,
-            'has_chinese':  False,
-            'app_type':     app_type,
-            'last_checked': today,
+            'name': name, 'has_chinese': False, 'app_type': app_type, 'last_checked': today,
         }
+        time.sleep(STORE_SLEEP)
+        continue
+
+    if extra.get('is_free'):
+        print(f'  → 免費遊戲，跳過')
+        stored[appid_str] = {'name': name, 'has_chinese': False, 'app_type': 'free', 'last_checked': today}
         time.sleep(STORE_SLEEP)
         continue
 
     has_chinese = bool(set(langs) & CHINESE_STORE_KEYS)
     had_chinese = stored.get(appid_str, {}).get('has_chinese', False)
-    stored_name = stored.get(appid_str, {}).get('name', name)
-
-    if extra.get('is_free'):
-        print(f'  → 免費遊戲，跳過')
-        stored[appid_str] = {'name': name, 'has_chinese': has_chinese, 'app_type': 'free', 'last_checked': today}
-        time.sleep(STORE_SLEEP)
-        continue
 
     if has_chinese and not had_chinese and appid_str not in notified:
         print(f'  → 🎉 [{name}] 新增中文支援！')
@@ -164,7 +174,7 @@ for i, appid in enumerate(to_check, 1):
         try:
             r = requests.get(
                 f'https://store.steampowered.com/appreviews/{appid}?json=1&language=all&purchase_type=all',
-                timeout=10
+                timeout=10,
             )
             summary       = r.json().get('query_summary', {})
             positive      = summary.get('total_positive', 0)
@@ -192,15 +202,14 @@ for i, appid in enumerate(to_check, 1):
         print(f'  → 中文：{"✅ 有" if has_chinese else "❌ 無"}')
 
     stored[appid_str] = {
-        'name':         name,
-        'has_chinese':  has_chinese,
-        'last_checked': today,
+        'name': name, 'has_chinese': has_chinese, 'last_checked': today,
     }
-
     time.sleep(STORE_SLEEP)
+
 
 DATA_FILE.write_text(json.dumps(stored, indent=2, ensure_ascii=False), 'utf-8')
 print(f'[INFO] languages.json 已更新，共記錄 {len(stored)} 款遊戲')
+
 
 # ===== 推播 Discord =====
 if not new_chinese_list:
@@ -235,7 +244,7 @@ for idx, batch in enumerate(batches):
             {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
         ]
         if game.get('genres'):
-            fields.append({'name': '🏷️ 類型',  'value': game['genres'],       'inline': True})
+            fields.append({'name': '🏷️ 類型',   'value': game['genres'],       'inline': True})
         if game.get('developers'):
             fields.append({'name': '🛠️ 開發商', 'value': game['developers'],   'inline': True})
         if game.get('release_date'):
@@ -252,8 +261,8 @@ for idx, batch in enumerate(batches):
         })
 
     payload = {'embeds': embeds}
-
     r = requests.post(WEBHOOK, json=payload, timeout=10)
+
     if r.status_code == 429:
         print(f'[WARN] Discord 速率限制，等待 5 秒...')
         time.sleep(5)
