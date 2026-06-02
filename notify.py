@@ -75,7 +75,7 @@ if not changed_appids:
     print('[INFO] 本次無任何 App 更新')
     raise SystemExit(0)
 
-SKIP_TYPES = {'dlc', 'music', 'demo', 'advertising', 'mod', 'video'}
+SKIP_TYPES = {'dlc', 'music', 'demo', 'advertising', 'mod', 'video', 'free'}
 
 to_check = [appid for appid in changed_appids
             if not stored.get(str(appid), {}).get('has_chinese')
@@ -87,7 +87,7 @@ STORE_SLEEP = 2.0  # 每筆間隔秒數
 
 # ===== 逐一用 Store API 查詢語系 =====
 def get_store_info(appid: int) -> tuple:
-    url = f'https://store.steampowered.com/api/appdetails?appids={appid}'
+    url = f'https://store.steampowered.com/api/appdetails?appids={appid}&l=tchinese'
     wait = 60
     for attempt in range(3):
         try:
@@ -99,20 +99,26 @@ def get_store_info(appid: int) -> tuple:
                 continue
             data = r.json()
             if not data or not data.get(str(appid), {}).get('success'):
-                return None, None, []
+                return None, None, [], {}
             app_data = data[str(appid)]['data']
             release  = app_data.get('release_date', {})
             if release.get('coming_soon') or not release.get('date'):
-                return 'coming_soon', app_data.get('name', f'App {appid}'), []
+                return 'coming_soon', app_data.get('name', f'App {appid}'), [], {}
             app_type  = app_data.get('type', '').lower()
             name      = app_data.get('name', f'App {appid}')
             raw_langs = app_data.get('supported_languages', '')
             langs     = [l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')]
-            return app_type, name, langs
+            extra = {
+                'genres':       ', '.join(g['description'] for g in app_data.get('genres', [])),
+                'developers':   ', '.join(app_data.get('developers', [])),
+                'release_date': release.get('date', ''),
+                'is_free':      app_data.get('is_free', False),
+            }
+            return app_type, name, langs, extra
         except Exception as e:
             print(f'  [WARN] Store API 失敗：{e}', flush=True)
-            return None, None, []
-    return None, None, []
+            return None, None, [], {}
+    return None, None, [], {}
 
 new_chinese_list = []
 notified = set()
@@ -122,7 +128,7 @@ for i, appid in enumerate(to_check, 1):
     appid_str = str(appid)
     print(f'[{i}/{len(to_check)}] 查詢 App {appid}...', flush=True)
 
-    app_type, name, langs = get_store_info(appid)
+    app_type, name, langs, extra = get_store_info(appid)
 
     if app_type is None:
         time.sleep(STORE_SLEEP)
@@ -144,6 +150,12 @@ for i, appid in enumerate(to_check, 1):
     had_chinese = stored.get(appid_str, {}).get('has_chinese', False)
     stored_name = stored.get(appid_str, {}).get('name', name)
 
+    if extra.get('is_free'):
+        print(f'  → 免費遊戲，跳過')
+        stored[appid_str] = {'name': name, 'has_chinese': has_chinese, 'app_type': 'free', 'last_checked': today}
+        time.sleep(STORE_SLEEP)
+        continue
+
     if has_chinese and not had_chinese and appid_str not in notified:
         print(f'  → 🎉 [{name}] 新增中文支援！')
 
@@ -164,11 +176,14 @@ for i, appid in enumerate(to_check, 1):
             print(f'  → 評論數 {total_reviews} < {MIN_REVIEWS}，跳過')
         else:
             new_chinese_list.append({
-                'appid':    appid_str,
-                'name':     name,
-                'langs':    ', '.join(l for l in langs if l),
-                'positive': positive,
-                'negative': negative,
+                'appid':        appid_str,
+                'name':         name,
+                'langs':        ', '.join(l for l in langs if l),
+                'positive':     positive,
+                'negative':     negative,
+                'genres':       extra.get('genres', ''),
+                'developers':   extra.get('developers', ''),
+                'release_date': extra.get('release_date', ''),
             })
             notified.add(appid_str)
     else:
@@ -204,7 +219,7 @@ for idx, batch in enumerate(batches):
         review_total = game['positive'] + game['negative']
         rate  = round(game['positive'] / review_total * 100) if review_total > 0 else 0
         url   = f"https://store.steampowered.com/app/{game['appid']}/"
-        img   = f"https://cdn.akamai.steamstatic.com/steam/apps/{game['appid']}/capsule_616x353.jpg"
+        img   = f"https://cdn.akamai.steamstatic.com/steam/apps/{game['appid']}/header.jpg"
         part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
 
         if idx == 0 and game_idx == 0:
@@ -214,14 +229,22 @@ for idx, batch in enumerate(batches):
         else:
             title = game['name'][:256]
 
+        fields = [
+            {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
+        ]
+        if game.get('genres'):
+            fields.append({'name': '🏷️ 類型',  'value': game['genres'],       'inline': True})
+        if game.get('developers'):
+            fields.append({'name': '🛠️ 開發商', 'value': game['developers'],   'inline': True})
+        if game.get('release_date'):
+            fields.append({'name': '📅 發售日', 'value': game['release_date'], 'inline': True})
+
         embeds.append({
             'title':     title[:256],
             'url':       url,
             'color':     5763719,
             'image':     {'url': img},
-            'fields': [
-                {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
-            ],
+            'fields':    fields,
             'footer':    {'text': today_str},
             'timestamp': datetime.now(timezone.utc).isoformat(),
         })
