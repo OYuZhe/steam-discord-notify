@@ -36,8 +36,13 @@ def fetch_trending() -> list[str]:
         timeout=15
     )
     r.raise_for_status()
-    items = r.json().get('new_and_trending', {}).get('items', [])
-    return [str(item['id']) for item in items]
+    data = r.json()
+    ids = [v.get('id') for v in data.values() if isinstance(v, dict) and v.get('id')]
+    print(f'  [DEBUG] 可用分類 id：{ids}', flush=True)
+    for v in data.values():
+        if isinstance(v, dict) and v.get('id') == 'new_and_trending':
+            return [str(item['id']) for item in v.get('items', [])]
+    return []
 
 
 def fetch_hot() -> list[str]:
