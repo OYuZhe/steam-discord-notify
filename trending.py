@@ -107,19 +107,19 @@ except Exception as e:
 
 _DATE_FMTS = [
     '%d %b, %Y', '%b %d, %Y', '%d %B, %Y', '%B %d, %Y',  # English
-    '%Y年%m月%d日', '%Y-%m-%d',                             # 中文/ISO
+    '%Y年%m月%d日', '%Y 年 %m 月 %d 日', '%Y-%m-%d',       # 中文/ISO
 ]
 
-def _calc_velocity(total_reviews: int, release_date_str: str) -> float:
+def _calc_velocity(total_reviews: int, release_date_str: str) -> tuple[float, int]:
     for fmt in _DATE_FMTS:
         try:
             release = datetime.strptime(release_date_str.strip(), fmt).date()
             days = max(1, (date.today() - release).days)
-            return total_reviews / days
+            return total_reviews / days, days
         except ValueError:
             continue
     print(f'    [DEBUG] 無法解析發售日：{release_date_str!r}，velocity 以總評論數代替', flush=True)
-    return float(total_reviews)
+    return float(total_reviews), 0
 
 
 # ===== 逐一查詢 appdetails =====
@@ -175,8 +175,11 @@ def get_game_info(appid: str) -> dict | None:
         print(f'    [DEBUG] 評論：👍{positive} 👎{negative} 好評率{rate}%', flush=True)
 
         release_date_str = release.get('date', '')
-        velocity = _calc_velocity(positive + negative, release_date_str)
-        print(f'    [DEBUG] 發售日：{release_date_str}，velocity={velocity:.2f} 則/天', flush=True)
+        velocity, days = _calc_velocity(positive + negative, release_date_str)
+        print(f'    [DEBUG] 發售日：{release_date_str}，上架 {days} 天，velocity={velocity:.2f} 則/天', flush=True)
+        if MODE == 'Rising' and days > 90:
+            print(f'    [DEBUG] 上架超過 90 天，Rising 模式跳過', flush=True)
+            return None
 
         return {
             'appid':        appid,
@@ -187,6 +190,7 @@ def get_game_info(appid: str) -> dict | None:
             'negative':     negative,
             'rate':         rate,
             'velocity':     velocity,
+        'days':         days,
             'genres':       ', '.join(g['description'] for g in app_data.get('genres', [])),
             'developers':   ', '.join(app_data.get('developers', [])),
             'release_date': release_date_str,
