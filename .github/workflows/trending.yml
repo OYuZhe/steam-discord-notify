@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run preview
+      - name: Run trending
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
