@@ -14,7 +14,7 @@ MIN_REVIEWS  = 20
 DATA_FILE    = Path(__file__).parent / 'languages.json'
 META_FILE    = Path(__file__).parent / 'meta.json'
 
-CHINESE_STORE_KEYS = {'Simplified Chinese', 'Traditional Chinese'}
+CHINESE_STORE_KEYS = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
 
 if not WEBHOOK:
     raise SystemExit('[ERROR] DISCORD_WEBHOOK 未設定')
