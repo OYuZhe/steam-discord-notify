@@ -31,18 +31,13 @@ if not STEAM_API_KEY:
 # ===== 取得候選 appid 清單 =====
 def fetch_trending() -> list[str]:
     r = requests.get(
-        'https://store.steampowered.com/api/featuredcategories/',
-        params={'cc': 'TW', 'l': 'tchinese'},
+        'https://store.steampowered.com/search/results/',
+        params={'filter': 'trending', 'json': '1', 'cc': 'TW', 'l': 'tchinese'},
         timeout=15
     )
     r.raise_for_status()
-    data = r.json()
-    ids = [v.get('id') for v in data.values() if isinstance(v, dict) and v.get('id')]
-    print(f'  [DEBUG] 可用分類 id：{ids}', flush=True)
-    for v in data.values():
-        if isinstance(v, dict) and v.get('id') == 'new_and_trending':
-            return [str(item['id']) for item in v.get('items', [])]
-    return []
+    items = r.json().get('items', [])
+    return [str(item['id']) for item in items if item.get('id')]
 
 
 def fetch_hot() -> list[str]:
