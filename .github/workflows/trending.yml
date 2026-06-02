@@ -1,0 +1,43 @@
+name: Steam 熱門中文遊戲推播
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '篩選模式'
+        required: false
+        default: 'Trending'
+        type: choice
+        options:
+          - Trending
+          - Hot
+      page:
+        description: '頁碼（每頁 10 款，從 1 開始）'
+        required: false
+        default: '1'
+        type: string
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run preview
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          MODE: ${{ inputs.mode || 'Trending' }}
+          PAGE: ${{ inputs.page || '1' }}
+        run: python trending.py
