@@ -18,14 +18,18 @@ Steam 遊戲 Discord 通知機器人，提供兩種功能：
 
 Actions → **建立語系基準資料** → Run workflow
 
-從 [FronkonGames/steam-games-dataset](https://huggingface.co/datasets/FronkonGames/steam-games-dataset)（CC BY 4.0）載入約 124,146 筆遊戲語系紀錄，執行完成後自動將 `languages.json` commit 回 repo。
+從 [FronkonGames/steam-games-dataset](https://huggingface.co/datasets/FronkonGames/steam-games-dataset)（CC BY 4.0）載入遊戲語系紀錄，執行完成後自動將 `languages.json` commit 回 repo。
 
-> 資料集涵蓋至 2026-02-02，之後新發售的遊戲在首次有 Store 更新時會被 `notify.py` 補上。
+> 資料集的涵蓋範圍請參閱上方連結。資料集截止日之後新發售的遊戲，在首次有 Store 更新時會被 `notify.py` 自動補上。
+
+> **Fork 使用者**：若資料集版本比 fork 時複製的 `languages.json` 更新，可重跑此步驟以取得較完整的基準；反之則跳過，直接進行步驟 3，避免覆蓋 `notify.py` 已累積的新資料。
 
 ### 3. 啟用每日排程
 
 每天 06:00（台灣時間）自動執行，無需額外設定。
 也可到 Actions → **Steam 中文更新通知** → Run workflow 手動觸發。
+
+> **Fork 使用者**：`meta.json` 記錄的是原 repo 的最後執行時間，首次排程執行時會以此為起點查詢。若希望從當下重新開始，可將 `meta.json` 的內容清空（`{}`）後 commit，notify.py 會自動回溯 25 小時前的資料。
 
 ---
 
