@@ -17,6 +17,11 @@ on:
         required: false
         default: '1'
         type: string
+      month:
+        description: '月份（僅 Rising 模式有效，格式 YYYY-MM，留空表示當月）'
+        required: false
+        default: ''
+        type: string
 
 jobs:
   preview:
@@ -41,4 +46,5 @@ jobs:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
           MODE: ${{ inputs.mode || 'Trending' }}
           PAGE: ${{ inputs.page || '1' }}
+          MONTH: ${{ inputs.month }}
         run: python trending.py
