@@ -32,26 +32,17 @@ if not STEAM_API_KEY:
 
 # ===== 取得候選 appid 清單 =====
 def fetch_trending() -> list[str]:
-    url = 'https://store.steampowered.com/search/results/'
-    params = {'filter': 'popularnew', 'json': '1', 'cc': 'TW', 'l': 'tchinese'}
-    print(f'  [DEBUG] GET {url} params={params}', flush=True)
-    r = requests.get(url, params=params, timeout=15)
-    print(f'  [DEBUG] HTTP {r.status_code}，回應長度 {len(r.text)} bytes', flush=True)
+    r = requests.get(
+        'https://store.steampowered.com/search/results/',
+        params={'filter': 'popularnew', 'json': '1', 'cc': 'TW', 'l': 'tchinese'},
+        timeout=15,
+    )
     r.raise_for_status()
-    data = r.json()
-    items = data.get('items', [])
-    print(f'  [DEBUG] items 數量：{len(items)}', flush=True)
-    if items:
-        print(f'  [DEBUG] item[0] keys：{list(items[0].keys())}', flush=True)
-        print(f'  [DEBUG] item[0] logo：{items[0].get("logo", "（無）")[:80]}', flush=True)
     appids = []
-    for item in items:
-        logo = item.get('logo', '')
-        m = re.search(r'/apps/(\d+)/', logo)
+    for item in r.json().get('items', []):
+        m = re.search(r'/apps/(\d+)/', item.get('logo', ''))
         if m:
             appids.append(m.group(1))
-        else:
-            print(f'  [DEBUG] 無法解析 appid，logo={logo[:80]}', flush=True)
     return appids
 
 
@@ -60,38 +51,33 @@ def _month_ts(year: int, month: int) -> int:
 
 
 def fetch_rising() -> list[str]:
-    url = 'https://api.steampowered.com/ISteamChartsService/GetMonthTopAppReleases/v1/'
+    url   = 'https://api.steampowered.com/ISteamChartsService/GetMonthTopAppReleases/v1/'
     today = date.today()
+    appids = []
 
     for delta in (0, -1):
-        # delta=0 當月，delta=-1 上個月
-        d = today.replace(day=1) + timedelta(days=32 * delta)
-        d = d.replace(day=1)
-        ts = _month_ts(d.year, d.month)
-        params = {'key': STEAM_API_KEY, 'rtime_month': ts, 'include_dlc': 'false'}
-        print(f'  [DEBUG] GET {url} month={d.year}-{d.month:02d}', flush=True)
+        d = (today.replace(day=1) + timedelta(days=32 * delta)).replace(day=1)
+        params = {'key': STEAM_API_KEY, 'rtime_month': _month_ts(d.year, d.month), 'include_dlc': 'false'}
         r = requests.get(url, params=params, timeout=15)
-        print(f'  [DEBUG] HTTP {r.status_code}，回應長度 {len(r.text)} bytes', flush=True)
         r.raise_for_status()
         apps = r.json().get('response', {}).get('top_combined_app_and_dlc_releases', [])
         appids = [str(a['appid']) for a in apps]
-        print(f'  [DEBUG] month={d.year}-{d.month:02d} 回傳 {len(appids)} 筆', flush=True)
+        print(f'[INFO] Rising 候選：{d.year}-{d.month:02d} 共 {len(appids)} 筆', flush=True)
         if len(appids) >= 10:
             return appids
-        print(f'  [DEBUG] 結果不足 10 筆，改查上個月', flush=True)
+        print('[INFO] 結果不足 10 筆，改查上個月', flush=True)
 
     return appids
 
 
 def fetch_hot() -> list[str]:
-    url = 'https://api.steampowered.com/ISteamChartsService/GetMostPlayedGames/v1/'
-    print(f'  [DEBUG] GET {url}', flush=True)
-    r = requests.get(url, params={'key': STEAM_API_KEY}, timeout=15)
-    print(f'  [DEBUG] HTTP {r.status_code}，回應長度 {len(r.text)} bytes', flush=True)
+    r = requests.get(
+        'https://api.steampowered.com/ISteamChartsService/GetMostPlayedGames/v1/',
+        params={'key': STEAM_API_KEY},
+        timeout=15,
+    )
     r.raise_for_status()
-    ranks = r.json().get('response', {}).get('ranks', [])
-    print(f'  [DEBUG] ranks 數量：{len(ranks)}', flush=True)
-    return [str(item['appid']) for item in ranks]
+    return [str(item['appid']) for item in r.json().get('response', {}).get('ranks', [])]
 
 
 MODE_FUNCS = {
@@ -126,25 +112,18 @@ def _calc_velocity(total_reviews: int, release_date_str: str) -> tuple[float, in
             return total_reviews / days, days
         except ValueError:
             continue
-    print(f'    [DEBUG] 無法解析發售日：{release_date_str!r}，velocity 以總評論數代替', flush=True)
     return float(total_reviews), 0
 
 
 # ===== 逐一查詢 appdetails =====
 def get_game_info(appid: str) -> dict | None:
     try:
-        url = f'https://store.steampowered.com/api/appdetails?appids={appid}&l=tchinese'
-        rd = requests.get(url, timeout=15)
-        print(f'    [DEBUG] appdetails HTTP {rd.status_code}', flush=True)
-
+        rd = requests.get(f'https://store.steampowered.com/api/appdetails?appids={appid}&l=tchinese', timeout=15)
         if rd.status_code != 200:
-            print(f'    [DEBUG] 非 200，跳過', flush=True)
             return None
 
-        data = rd.json()
-        entry = data.get(appid, {})
+        entry = rd.json().get(appid, {})
         if not entry.get('success'):
-            print(f'    [DEBUG] success=false，跳過', flush=True)
             return None
 
         app_data = entry['data']
@@ -152,50 +131,34 @@ def get_game_info(appid: str) -> dict | None:
         name     = app_data.get('name', f'App {appid}')
 
         if app_type != 'game':
-            print(f'    [DEBUG] type={app_type}，跳過', flush=True)
             return None
 
         if MODE == 'Rising':
-            categories = {c['id'] for c in app_data.get('categories', [])}
-            genres_ids = {g['id'] for g in app_data.get('genres', [])}
-            all_tag_ids = categories | genres_ids
-            skip_tags = RISING_SKIP_TAGS & all_tag_ids
-            if skip_tags:
-                print(f'    [DEBUG] 含排除 tag {skip_tags}，跳過', flush=True)
+            all_tag_ids = {c['id'] for c in app_data.get('categories', [])} | {g['id'] for g in app_data.get('genres', [])}
+            if RISING_SKIP_TAGS & all_tag_ids:
                 return None
 
         release = app_data.get('release_date', {})
-        if release.get('coming_soon'):
-            print(f'    [DEBUG] coming_soon，跳過', flush=True)
-            return None
-        if not release.get('date'):
-            print(f'    [DEBUG] 無發售日，跳過', flush=True)
+        if release.get('coming_soon') or not release.get('date'):
             return None
 
         raw_langs   = app_data.get('supported_languages', '')
         langs       = {l.strip().split('*')[0].strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
         has_chinese = bool(langs & CHINESE_KEYS)
-        print(f'    [DEBUG] 語系（前5）：{list(langs)[:5]}，有中文：{has_chinese}', flush=True)
 
         time.sleep(0.5)
 
-        rv = requests.get(
-            f'https://store.steampowered.com/appreviews/{appid}?json=1&language=all&purchase_type=all',
-            timeout=10
-        )
-        print(f'    [DEBUG] appreviews HTTP {rv.status_code}', flush=True)
+        rv      = requests.get(f'https://store.steampowered.com/appreviews/{appid}?json=1&language=all&purchase_type=all', timeout=10)
         summary  = rv.json().get('query_summary', {})
         positive = summary.get('total_positive', 0)
         negative = summary.get('total_negative', 0)
         total    = positive + negative
         rate     = round(positive / total * 100) if total > 0 else 0
-        print(f'    [DEBUG] 評論：👍{positive} 👎{negative} 好評率{rate}%', flush=True)
 
         release_date_str = release.get('date', '')
-        velocity, days = _calc_velocity(positive + negative, release_date_str)
-        print(f'    [DEBUG] 發售日：{release_date_str}，上架 {days} 天，velocity={velocity:.2f} 則/天', flush=True)
+        velocity, days   = _calc_velocity(total, release_date_str)
+
         if MODE == 'Rising' and days > 90:
-            print(f'    [DEBUG] 上架超過 90 天，Rising 模式跳過', flush=True)
             return None
 
         return {
@@ -214,7 +177,7 @@ def get_game_info(appid: str) -> dict | None:
             'release_date': release_date_str,
         }
     except Exception as e:
-        print(f'    [DEBUG] 例外：{e}', flush=True)
+        print(f'[WARN] App {appid} 查詢失敗：{e}', flush=True)
         return None
 
 
@@ -236,7 +199,7 @@ if not qualified:
 if MODE == 'Rising':
     qualified.sort(key=lambda g: g['velocity'], reverse=True)
     top = qualified[0]
-    print(f'[INFO] Rising 模式：依 velocity 排序，第一名 {top["name"]} ({top["velocity"]:.2f} 則/天)', flush=True)
+    print(f'[INFO] Rising 排序完成，第一名：{top["name"]}（{top["velocity"]:.2f} 則/天）', flush=True)
 
 total_pages = (len(qualified) + SAMPLE - 1) // SAMPLE
 page = max(1, min(PAGE, total_pages))
@@ -282,15 +245,14 @@ for i, game in enumerate(sample):
         'timestamp': datetime.now(timezone.utc).isoformat(),
     })
 
-    print(f'  [{i+1}/{len(sample)}] {game["name"]}（好評率 {game["rate"]}%）')
+    print(f'  [{i+1}/{len(sample)}] {game["name"]}（好評率 {game["rate"]}%）', flush=True)
 
 
 # ===== 推播 =====
 payload = {'embeds': embeds}
 r = requests.post(WEBHOOK, json=payload, timeout=10)
-print(f'[DEBUG] Discord 推播 HTTP {r.status_code}', flush=True)
 
 if r.status_code >= 400:
-    print(f'[WARN] Discord 推播失敗（HTTP {r.status_code}）')
+    print(f'[WARN] Discord 推播失敗（HTTP {r.status_code}）', flush=True)
 else:
-    print('[NOTIFY] 預覽推播成功')
+    print('[NOTIFY] 推播成功', flush=True)
