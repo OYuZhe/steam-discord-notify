@@ -192,34 +192,41 @@ if not new_chinese_list:
 
 print(f'[INFO] 推播 {len(new_chinese_list)} 款遊戲到 Discord...')
 
-BATCH_SIZE = 25
-total      = len(new_chinese_list)
-today_str  = datetime.now().strftime('%Y-%m-%d')
-
-lines = []
-for game in new_chinese_list:
-    review_total = game['positive'] + game['negative']
-    rate = round(game['positive'] / review_total * 100) if review_total > 0 else 0
-    url  = f"https://store.steampowered.com/app/{game['appid']}/"
-    lines.append(f"🎮 [{game['name']}]({url})　👍 {game['positive']} 👎 {game['negative']}（好評率 {rate}%）")
-
-batches     = [lines[i:i + BATCH_SIZE] for i in range(0, total, BATCH_SIZE)]
+BATCH_SIZE  = 10
+total       = len(new_chinese_list)
+today_str   = datetime.now().strftime('%Y-%m-%d')
+batches     = [new_chinese_list[i:i + BATCH_SIZE] for i in range(0, total, BATCH_SIZE)]
 batch_count = len(batches)
 
 for idx, batch in enumerate(batches):
-    is_first = idx == 0
-    part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
-    title    = f'🌏 今日新增中文支援：共 {total} 款遊戲 {part_str}' if is_first else f'🌏 新增中文支援（續）{part_str}'
+    embeds = []
+    for game_idx, game in enumerate(batch):
+        review_total = game['positive'] + game['negative']
+        rate  = round(game['positive'] / review_total * 100) if review_total > 0 else 0
+        url   = f"https://store.steampowered.com/app/{game['appid']}/"
+        img   = f"https://cdn.akamai.steamstatic.com/steam/apps/{game['appid']}/capsule_616x353.jpg"
+        part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
 
-    payload = {
-        'embeds': [{
-            'title':       title[:256],
-            'description': '\n'.join(batch),
-            'color':       5763719,
-            'footer':      {'text': today_str},
-            'timestamp':   datetime.now(timezone.utc).isoformat(),
-        }]
-    }
+        if idx == 0 and game_idx == 0:
+            title = f'🌏 今日新增中文支援：共 {total} 款遊戲 {part_str}'.strip()
+        elif game_idx == 0:
+            title = f'🌏 新增中文支援（續）{part_str}'.strip()
+        else:
+            title = game['name'][:256]
+
+        embeds.append({
+            'title':     title[:256],
+            'url':       url,
+            'color':     5763719,
+            'image':     {'url': img},
+            'fields': [
+                {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
+            ],
+            'footer':    {'text': today_str},
+            'timestamp': datetime.now(timezone.utc).isoformat(),
+        })
+
+    payload = {'embeds': embeds}
 
     r = requests.post(WEBHOOK, json=payload, timeout=10)
     if r.status_code == 429:
