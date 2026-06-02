@@ -113,6 +113,7 @@ def get_store_info(appid: int) -> tuple:
                 'developers':   ', '.join(app_data.get('developers', [])),
                 'release_date': release.get('date', ''),
                 'is_free':      app_data.get('is_free', False),
+                'header_image': app_data.get('header_image', ''),
             }
             return app_type, name, langs, extra
         except Exception as e:
@@ -184,6 +185,7 @@ for i, appid in enumerate(to_check, 1):
                 'genres':       extra.get('genres', ''),
                 'developers':   extra.get('developers', ''),
                 'release_date': extra.get('release_date', ''),
+                'header_image': extra.get('header_image', ''),
             })
             notified.add(appid_str)
     else:
@@ -219,7 +221,7 @@ for idx, batch in enumerate(batches):
         review_total = game['positive'] + game['negative']
         rate  = round(game['positive'] / review_total * 100) if review_total > 0 else 0
         url   = f"https://store.steampowered.com/app/{game['appid']}/"
-        img   = f"https://cdn.akamai.steamstatic.com/steam/apps/{game['appid']}/header.jpg"
+        img   = game.get('header_image') or f"https://cdn.akamai.steamstatic.com/steam/apps/{game['appid']}/header.jpg"
         part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
 
         if idx == 0 and game_idx == 0:
