@@ -156,7 +156,7 @@ def get_game_info(appid: str) -> dict | None:
             return None
 
         raw_langs   = app_data.get('supported_languages', '')
-        langs       = {l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
+        langs       = {l.strip().split('*')[0].strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
         has_chinese = bool(langs & CHINESE_KEYS)
         print(f'    [DEBUG] 語系（前5）：{list(langs)[:5]}，有中文：{has_chinese}', flush=True)
 
