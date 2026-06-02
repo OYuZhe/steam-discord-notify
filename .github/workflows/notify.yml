@@ -2,7 +2,7 @@ name: Steam 中文更新通知
 
 on:
   schedule:
-    - cron: '0 1 * * *'  # 每天 09:00 台灣時間（UTC+8）
+    - cron: '0 22 * * *'  # 每天 06:00 台灣時間（UTC+8）
   workflow_dispatch:
 
 permissions:
