@@ -61,7 +61,7 @@ for i, (appid, info) in enumerate(sample):
         'title':     title[:256],
         'url':       url,
         'color':     5763719,
-        'thumbnail': {'url': img},
+        'image':     {'url': img},
         'fields': [
             {'name': '📊 評論', 'value': f"👍 {positive}  👎 {negative}（好評率 {rate}%）", 'inline': False},
         ],
