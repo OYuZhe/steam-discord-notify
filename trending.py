@@ -20,7 +20,7 @@ try:
 except ValueError:
     PAGE = 1
 SAMPLE        = 10
-CHINESE_KEYS  = {'Simplified Chinese', 'Traditional Chinese'}
+CHINESE_KEYS  = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
 
 if not WEBHOOK:
     raise SystemExit('[ERROR] DISCORD_WEBHOOK 未設定')
