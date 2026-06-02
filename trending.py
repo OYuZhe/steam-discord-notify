@@ -2,9 +2,9 @@
 trending.py — 依模式從 Steam 取得熱門遊戲清單並推播到 Discord，顯示是否支援中文
 
 MODE 環境變數：
-  Trending  (預設) 從 Steam popularnew 分類取得遊戲
-  Hot              從 Steam 當前同時在線人數排行取得遊戲
-  Rising           從 Steam GetMonthTopAppReleases 取得當月 Top Releases，依評論速度排序
+  Trending  （預設）從 Steam popularnew 分類取得遊戲
+  Hot               從 Steam 當前同時在線人數排行取得遊戲
+  Rising            從 Steam GetMonthTopAppReleases 取得當月 Top Releases，依評論速度排序
 """
 import os
 import re
@@ -13,6 +13,7 @@ from datetime import datetime, timezone, date
 
 import requests
 
+# ===== 設定 =====
 WEBHOOK       = os.environ.get('DISCORD_WEBHOOK', '').strip()
 STEAM_API_KEY = os.environ.get('STEAM_API_KEY', '').strip()
 MODE          = os.environ.get('MODE', 'Trending').strip()
@@ -20,9 +21,10 @@ try:
     PAGE = max(1, int(os.environ.get('PAGE', '1') or '1'))
 except ValueError:
     PAGE = 1
-SAMPLE        = 10
-MONTH         = os.environ.get('MONTH', '').strip()
-CHINESE_KEYS  = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
+MONTH  = os.environ.get('MONTH', '').strip()
+SAMPLE = 10
+
+CHINESE_KEYS     = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
 RISING_SKIP_TAGS = {19, 1774, 3859}  # Free to Play, Massively Multiplayer, Battle Royale
 
 if not WEBHOOK:
@@ -67,7 +69,7 @@ def fetch_rising() -> list[str]:
         except ValueError:
             raise SystemExit(f'[ERROR] MONTH 格式錯誤：{MONTH}，應為 YYYY-MM')
     else:
-        cur = date.today().replace(day=1)
+        cur    = date.today().replace(day=1)
         months = [cur, _prev_month(cur)]
 
     appids = []
@@ -114,6 +116,7 @@ except Exception as e:
     raise SystemExit(f'[ERROR] 取得清單失敗：{e}')
 
 
+# ===== 計算評論速度（則/天）=====
 _DATE_FMTS = [
     '%d %b, %Y', '%b %d, %Y', '%d %B, %Y', '%B %d, %Y',  # English
     '%Y年%m月%d日', '%Y 年 %m 月 %d 日', '%Y-%m-%d',       # 中文/ISO
@@ -123,7 +126,7 @@ def _calc_velocity(total_reviews: int, release_date_str: str) -> tuple[float, in
     for fmt in _DATE_FMTS:
         try:
             release = datetime.strptime(release_date_str.strip(), fmt).date()
-            days = max(1, (date.today() - release).days)
+            days    = max(1, (date.today() - release).days)
             return total_reviews / days, days
         except ValueError:
             continue
@@ -142,43 +145,43 @@ def get_game_info(appid: str) -> dict | None:
             return None
 
         app_data = entry['data']
-        app_type = app_data.get('type', '').lower()
-        name     = app_data.get('name', f'App {appid}')
-
-        if app_type != 'game':
+        if app_data.get('type', '').lower() != 'game':
             return None
-
-        if MODE == 'Rising':
-            all_tag_ids = {c['id'] for c in app_data.get('categories', [])} | {g['id'] for g in app_data.get('genres', [])}
-            if RISING_SKIP_TAGS & all_tag_ids:
-                return None
 
         release = app_data.get('release_date', {})
         if release.get('coming_soon') or not release.get('date'):
             return None
 
+        # Rising 模式：過濾免費、大型多人、Battle Royale
+        if MODE == 'Rising':
+            all_tag_ids = {c['id'] for c in app_data.get('categories', [])} | {g['id'] for g in app_data.get('genres', [])}
+            if RISING_SKIP_TAGS & all_tag_ids:
+                return None
+
+        # split('*')[0] 去掉星號（部分語音支援標記）及後方的備註文字
         raw_langs   = app_data.get('supported_languages', '')
         langs       = {l.strip().split('*')[0].strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')}
         has_chinese = bool(langs & CHINESE_KEYS)
 
         time.sleep(0.5)
 
-        rv      = requests.get(f'https://store.steampowered.com/appreviews/{appid}?json=1&language=all&purchase_type=all', timeout=10)
+        rv       = requests.get(f'https://store.steampowered.com/appreviews/{appid}?json=1&language=all&purchase_type=all', timeout=10)
         summary  = rv.json().get('query_summary', {})
         positive = summary.get('total_positive', 0)
         negative = summary.get('total_negative', 0)
         total    = positive + negative
         rate     = round(positive / total * 100) if total > 0 else 0
 
-        release_date_str = release.get('date', '')
-        velocity, days   = _calc_velocity(total, release_date_str)
+        release_date_str     = release.get('date', '')
+        velocity, days       = _calc_velocity(total, release_date_str)
 
+        # Rising 模式：只收錄 90 天內發售的遊戲
         if MODE == 'Rising' and days > 90:
             return None
 
         return {
             'appid':        appid,
-            'name':         name,
+            'name':         app_data.get('name', f'App {appid}'),
             'has_chinese':  has_chinese,
             'is_free':      app_data.get('is_free', False),
             'positive':     positive,
@@ -217,19 +220,19 @@ if MODE == 'Rising':
     print(f'[INFO] Rising 排序完成，第一名：{top["name"]}（{top["velocity"]:.2f} 則/天）', flush=True)
 
 total_pages = (len(qualified) + SAMPLE - 1) // SAMPLE
-page = max(1, min(PAGE, total_pages))
+page        = max(1, min(PAGE, total_pages))
 
 if page != PAGE:
     print(f'[INFO] 頁碼 {PAGE} 超出範圍，調整為第 {page} 頁（共 {total_pages} 頁）', flush=True)
 
-start = (page - 1) * SAMPLE
+start  = (page - 1) * SAMPLE
 sample = qualified[start:start + SAMPLE]
 print(f'[INFO] 第 {page} / {total_pages} 頁（第 {start+1}～{start+len(sample)} 款），準備推播...', flush=True)
 
 
 # ===== 組合 Discord embeds =====
 today_str = datetime.now().strftime('%Y-%m-%d')
-embeds = []
+embeds    = []
 
 for i, game in enumerate(sample):
     appid = game['appid']
