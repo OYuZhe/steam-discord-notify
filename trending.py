@@ -9,7 +9,7 @@ MODE 環境變數：
 import os
 import re
 import time
-from datetime import datetime, timezone, date, timedelta
+from datetime import datetime, timezone, date
 
 import requests
 
@@ -50,17 +50,22 @@ def _month_ts(year: int, month: int) -> int:
     return int(datetime(year, month, 1, tzinfo=timezone.utc).timestamp())
 
 
-def fetch_rising() -> list[str]:
-    url   = 'https://api.steampowered.com/ISteamChartsService/GetMonthTopAppReleases/v1/'
-    today = date.today()
-    appids = []
+def _prev_month(d: date) -> date:
+    if d.month == 1:
+        return date(d.year - 1, 12, 1)
+    return date(d.year, d.month - 1, 1)
 
-    for delta in (0, -1):
-        d = (today.replace(day=1) + timedelta(days=32 * delta)).replace(day=1)
+
+def fetch_rising() -> list[str]:
+    url      = 'https://api.steampowered.com/ISteamChartsService/GetMonthTopAppReleases/v1/'
+    cur      = date.today().replace(day=1)
+    appids   = []
+
+    for d in (cur, _prev_month(cur)):
         params = {'key': STEAM_API_KEY, 'rtime_month': _month_ts(d.year, d.month), 'include_dlc': 'false'}
         r = requests.get(url, params=params, timeout=15)
         r.raise_for_status()
-        apps = r.json().get('response', {}).get('top_combined_app_and_dlc_releases', [])
+        apps   = r.json().get('response', {}).get('top_combined_app_and_dlc_releases', [])
         appids = [str(a['appid']) for a in apps]
         print(f'[INFO] Rising 候選：{d.year}-{d.month:02d} 共 {len(appids)} 筆', flush=True)
         if len(appids) >= 10:
