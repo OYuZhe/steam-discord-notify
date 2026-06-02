@@ -208,6 +208,7 @@ def get_game_info(appid: str) -> dict | None:
             'rate':         rate,
             'velocity':     velocity,
             'days':         days,
+            'header_image': app_data.get('header_image', f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg'),
             'genres':       ', '.join(g['description'] for g in app_data.get('genres', [])),
             'developers':   ', '.join(app_data.get('developers', [])),
             'release_date': release_date_str,
@@ -255,7 +256,7 @@ embeds = []
 for i, game in enumerate(sample):
     appid = game['appid']
     url   = f'https://store.steampowered.com/app/{appid}/'
-    img   = f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg'
+    img   = game.get('header_image', f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg')
     title         = f'🎮 Steam {mode_label} 熱門遊戲' if i == 0 else game['name'][:256]
     chinese_label = '✅ 支援中文' if game['has_chinese'] else '❌ 不支援中文'
     free_label    = '（免費）' if game['is_free'] else ''
