@@ -83,5 +83,5 @@ Actions → **Steam 熱門中文遊戲推播** → Run workflow
 | `trending.py` | 手動觸發，依模式取得熱門遊戲並推播 Discord |
 | `requirements.txt` | 相依套件（`requests`） |
 | `requirements-seed.txt` | `seed.py` 相依套件（`requests`、`datasets`） |
-| `languages.json` | 各遊戲的語系狀態（由 Actions 自動維護） |
-| `meta.json` | 上次執行時間戳記，用於增量查詢 |
+| `languages.json` | 各遊戲的語系狀態（由 Actions 自動維護，請勿手動修改） |
+| `meta.json` | 上次執行的時間戳記，用於增量查詢（由 Actions 自動維護，請勿手動修改） |
