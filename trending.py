@@ -21,6 +21,7 @@ try:
 except ValueError:
     PAGE = 1
 SAMPLE        = 10
+MONTH         = os.environ.get('MONTH', '').strip()
 CHINESE_KEYS  = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
 RISING_SKIP_TAGS = {19, 1774, 3859}  # Free to Play, Massively Multiplayer, Battle Royale
 
@@ -57,11 +58,20 @@ def _prev_month(d: date) -> date:
 
 
 def fetch_rising() -> list[str]:
-    url      = 'https://api.steampowered.com/ISteamChartsService/GetMonthTopAppReleases/v1/'
-    cur      = date.today().replace(day=1)
-    appids   = []
+    url = 'https://api.steampowered.com/ISteamChartsService/GetMonthTopAppReleases/v1/'
 
-    for d in (cur, _prev_month(cur)):
+    if MONTH:
+        try:
+            d = datetime.strptime(MONTH, '%Y-%m').date().replace(day=1)
+            months = [d]
+        except ValueError:
+            raise SystemExit(f'[ERROR] MONTH 格式錯誤：{MONTH}，應為 YYYY-MM')
+    else:
+        cur = date.today().replace(day=1)
+        months = [cur, _prev_month(cur)]
+
+    appids = []
+    for d in months:
         params = {'key': STEAM_API_KEY, 'rtime_month': _month_ts(d.year, d.month), 'include_dlc': 'false'}
         r = requests.get(url, params=params, timeout=15)
         r.raise_for_status()
