@@ -36,7 +36,11 @@ def fetch_trending() -> list[str]:
         timeout=15
     )
     r.raise_for_status()
-    items = r.json().get('items', [])
+    data = r.json()
+    print(f'  [DEBUG] keys: {list(data.keys())}', flush=True)
+    items = data.get('items', [])
+    if items:
+        print(f'  [DEBUG] item[0] keys: {list(items[0].keys())}', flush=True)
     return [str(item['id']) for item in items if item.get('id')]
 
 
