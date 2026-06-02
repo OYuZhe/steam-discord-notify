@@ -107,7 +107,7 @@ def get_store_info(appid: int) -> tuple:
             app_type  = app_data.get('type', '').lower()
             name      = app_data.get('name', f'App {appid}')
             raw_langs = app_data.get('supported_languages', '')
-            langs     = [l.strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')]
+            langs     = [l.strip().split('*')[0].strip() for l in re.sub(r'<[^>]+>', '', raw_langs).split(',')]
             extra = {
                 'genres':       ', '.join(g['description'] for g in app_data.get('genres', [])),
                 'developers':   ', '.join(app_data.get('developers', [])),
