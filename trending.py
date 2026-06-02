@@ -25,7 +25,7 @@ MONTH  = os.environ.get('MONTH', '').strip()
 SAMPLE = 10
 
 CHINESE_KEYS     = {'Simplified Chinese', 'Traditional Chinese', '簡體中文', '繁體中文'}
-RISING_SKIP_TAGS = {19, 1774, 3859}  # Free to Play, Massively Multiplayer, Battle Royale
+RISING_SKIP_TAGS = {1774, 3859}  # Massively Multiplayer, Battle Royale
 
 if not WEBHOOK:
     raise SystemExit('[ERROR] DISCORD_WEBHOOK 未設定')
@@ -152,8 +152,10 @@ def get_game_info(appid: str) -> dict | None:
         if release.get('coming_soon') or not release.get('date'):
             return None
 
-        # Rising 模式：過濾免費、大型多人、Battle Royale
+        # Rising 模式：過濾免費遊戲（is_free 比 F2P tag 更可靠）、大型多人、Battle Royale
         if MODE == 'Rising':
+            if app_data.get('is_free'):
+                return None
             all_tag_ids = {c['id'] for c in app_data.get('categories', [])} | {g['id'] for g in app_data.get('genres', [])}
             if RISING_SKIP_TAGS & all_tag_ids:
                 return None
