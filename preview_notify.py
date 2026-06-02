@@ -37,7 +37,7 @@ today_str = datetime.now().strftime('%Y-%m-%d')
 embeds = []
 for i, (appid, info) in enumerate(sample):
     url = f'https://store.steampowered.com/app/{appid}/'
-    img = f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/capsule_616x353.jpg'
+    img = f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg'
     name = info.get('name', f'App {appid}')
 
     positive = negative = 0
@@ -61,7 +61,7 @@ for i, (appid, info) in enumerate(sample):
         'title':     title[:256],
         'url':       url,
         'color':     5763719,
-        'image':     {'url': img},
+        'thumbnail': {'url': img},
         'fields': [
             {'name': '📊 評論', 'value': f"👍 {positive}  👎 {negative}（好評率 {rate}%）", 'inline': False},
         ],
