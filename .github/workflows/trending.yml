@@ -11,6 +11,7 @@ on:
         options:
           - Trending
           - Hot
+          - Rising
       page:
         description: '頁碼（每頁 10 款，從 1 開始）'
         required: false
