@@ -233,12 +233,14 @@ for idx, batch in enumerate(batches):
         img   = game.get('header_image') or f"https://cdn.akamai.steamstatic.com/steam/apps/{game['appid']}/header.jpg"
         part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
 
-        if idx == 0 and game_idx == 0:
+        is_first = game_idx == 0
+        if idx == 0 and is_first:
             title = f'🌏 今日新增中文支援：共 {total} 款遊戲 {part_str}'.strip()
-        elif game_idx == 0:
+        elif is_first:
             title = f'🌏 新增中文支援（續）{part_str}'.strip()
         else:
             title = game['name'][:256]
+        description = game['name'][:256] if is_first else None
 
         fields = [
             {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
@@ -250,7 +252,7 @@ for idx, batch in enumerate(batches):
         if game.get('release_date'):
             fields.append({'name': '📅 發售日', 'value': game['release_date'], 'inline': True})
 
-        embeds.append({
+        embed = {
             'title':     title[:256],
             'url':       url,
             'color':     5763719,
@@ -258,7 +260,10 @@ for idx, batch in enumerate(batches):
             'fields':    fields,
             'footer':    {'text': today_str},
             'timestamp': datetime.now(timezone.utc).isoformat(),
-        })
+        }
+        if description:
+            embed['description'] = description
+        embeds.append(embed)
 
     payload = {'embeds': embeds}
     r = requests.post(WEBHOOK, json=payload, timeout=10)
