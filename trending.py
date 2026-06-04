@@ -69,8 +69,11 @@ def fetch_rising() -> list[str]:
         except ValueError:
             raise SystemExit(f'[ERROR] MONTH 格式錯誤：{MONTH}，應為 YYYY-MM')
     else:
-        cur    = date.today().replace(day=1)
-        months = [cur, _prev_month(cur)]
+        cur = date.today().replace(day=1)
+        months = [cur]
+        for _ in range(3):
+            cur = _prev_month(cur)
+            months.append(cur)
 
     appids = []
     for d in months:
@@ -82,7 +85,7 @@ def fetch_rising() -> list[str]:
         print(f'[INFO] Rising 候選：{d.year}-{d.month:02d} 共 {len(appids)} 筆', flush=True)
         if len(appids) >= 10:
             return appids
-        print('[INFO] 結果不足 10 筆，改查上個月', flush=True)
+        print('[INFO] 結果不足 10 筆，改查前一個月', flush=True)
 
     return appids
 
@@ -111,13 +114,9 @@ fetch_func, mode_label = MODE_FUNCS[MODE]
 print(f'[INFO] 模式：{mode_label}，取得候選清單...', flush=True)
 try:
     source_appids = fetch_func()
+    print(f'[INFO] 來源清單共 {len(source_appids)} 款', flush=True)
 except Exception as e:
     raise SystemExit(f'[ERROR] 取得清單失敗：{e}')
-
-if not source_appids:
-    raise SystemExit('[ERROR] 來源清單為空（Rising 模式：當月排行可能尚未結算，可改指定上個月）')
-
-print(f'[INFO] 來源清單共 {len(source_appids)} 款', flush=True)
 
 
 # ===== 計算評論速度（則/天）=====
@@ -178,12 +177,8 @@ def get_game_info(appid: str) -> dict | None:
         total    = positive + negative
         rate     = round(positive / total * 100) if total > 0 else 0
 
-        release_date_str     = release.get('date', '')
-        velocity, days       = _calc_velocity(total, release_date_str)
-
-        # Rising 模式：只收錄 90 天內發售的遊戲
-        if MODE == 'Rising' and days > 90:
-            return None
+        release_date_str = release.get('date', '')
+        velocity, days   = _calc_velocity(total, release_date_str)
 
         return {
             'appid':        appid,
