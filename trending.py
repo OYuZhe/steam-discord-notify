@@ -111,9 +111,13 @@ fetch_func, mode_label = MODE_FUNCS[MODE]
 print(f'[INFO] 模式：{mode_label}，取得候選清單...', flush=True)
 try:
     source_appids = fetch_func()
-    print(f'[INFO] 來源清單共 {len(source_appids)} 款', flush=True)
 except Exception as e:
     raise SystemExit(f'[ERROR] 取得清單失敗：{e}')
+
+if not source_appids:
+    raise SystemExit('[ERROR] 來源清單為空（Rising 模式：當月排行可能尚未結算，可改指定上個月）')
+
+print(f'[INFO] 來源清單共 {len(source_appids)} 款', flush=True)
 
 
 # ===== 計算評論速度（則/天）=====
