@@ -242,12 +242,11 @@ for i, game in enumerate(sample):
     is_first      = i == 0
     title         = game['name'][:256]
     author_name   = f'🎮 Steam {mode_label} 熱門遊戲' if is_first else None
-    chinese_label = '✅ 支援中文' if game['has_chinese'] else '❌ 不支援中文'
-    free_label    = '（免費）' if game['is_free'] else ''
+    chinese_label = '✅ 中文' if game['has_chinese'] else '❌ 無中文'
+    free_label    = '・免費' if game['is_free'] else ''
 
     fields = [
-        {'name': '🌐 中文支援', 'value': chinese_label,                                                                        'inline': True},
-        {'name': '📊 評論',    'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {game['rate']}%）{free_label}", 'inline': False},
+        {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {game['rate']}%）　{chinese_label}{free_label}", 'inline': False},
     ]
     if game.get('genres'):
         fields.append({'name': '🏷️ 類型',   'value': game['genres'],       'inline': True})
@@ -262,7 +261,7 @@ for i, game in enumerate(sample):
         'color':     5763719,
         'image':     {'url': img},
         'fields':    fields,
-        'footer':    {'text': f'PREVIEW · {mode_label} · {today_str}'},
+        'footer':    {'text': f'Steam 熱門遊戲 · {mode_label} · {today_str}'},
         'timestamp': datetime.now(timezone.utc).isoformat(),
     }
     if author_name:
