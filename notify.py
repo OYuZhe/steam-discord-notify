@@ -234,13 +234,13 @@ for idx, batch in enumerate(batches):
         part_str = f'（第 {idx + 1} / {batch_count} 則）' if batch_count > 1 else ''
 
         is_first = game_idx == 0
+        title    = game['name'][:256]
         if idx == 0 and is_first:
-            title = f'🌏 今日新增中文支援：共 {total} 款遊戲 {part_str}'.strip()
+            author_name = f'🌏 今日新增中文支援：共 {total} 款遊戲 {part_str}'.strip()
         elif is_first:
-            title = f'🌏 新增中文支援（續）{part_str}'.strip()
+            author_name = f'🌏 新增中文支援（續）{part_str}'.strip()
         else:
-            title = game['name'][:256]
-        description = game['name'][:256] if is_first else None
+            author_name = None
 
         fields = [
             {'name': '📊 評論', 'value': f"👍 {game['positive']}  👎 {game['negative']}（好評率 {rate}%）", 'inline': False},
@@ -258,11 +258,11 @@ for idx, batch in enumerate(batches):
             'color':     5763719,
             'image':     {'url': img},
             'fields':    fields,
-            'footer':    {'text': today_str},
+            'footer':    {'text': f'Steam 中文更新通知 · {today_str}'},
             'timestamp': datetime.now(timezone.utc).isoformat(),
         }
-        if description:
-            embed['description'] = description
+        if author_name:
+            embed['author'] = {'name': author_name}
         embeds.append(embed)
 
     payload = {'embeds': embeds}
