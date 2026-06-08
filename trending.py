@@ -240,8 +240,8 @@ for i, game in enumerate(sample):
     url   = f'https://store.steampowered.com/app/{appid}/'
     img   = game.get('header_image', f'https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg')
     is_first      = i == 0
-    title         = f'🎮 Steam {mode_label} 熱門遊戲' if is_first else game['name'][:256]
-    description   = game['name'][:256] if is_first else None
+    title         = game['name'][:256]
+    author_name   = f'🎮 Steam {mode_label} 熱門遊戲' if is_first else None
     chinese_label = '✅ 支援中文' if game['has_chinese'] else '❌ 不支援中文'
     free_label    = '（免費）' if game['is_free'] else ''
 
@@ -265,8 +265,8 @@ for i, game in enumerate(sample):
         'footer':    {'text': f'PREVIEW · {mode_label} · {today_str}'},
         'timestamp': datetime.now(timezone.utc).isoformat(),
     }
-    if description:
-        embed['description'] = description
+    if author_name:
+        embed['author'] = {'name': author_name}
     embeds.append(embed)
 
     print(f'  [{i+1}/{len(sample)}] {game["name"]}（好評率 {game["rate"]}%）', flush=True)
