@@ -5058,7 +5058,7 @@
   "3982780": {
     "name": "近所 - if -",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1535040": {
     "name": "The Great Unborn",
@@ -16571,7 +16571,7 @@
   "2773450": {
     "name": "The Legend of Sebb Linus",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2331240": {
     "name": "Wizard of Wyndmoor",
@@ -23574,8 +23574,8 @@
   },
   "1854280": {
     "name": "The Vision Of The Ant",
-    "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
   },
   "1909840": {
     "name": "JIANGHU CHRONICLES",
@@ -24295,7 +24295,7 @@
   "3699530": {
     "name": "Flappy Smile",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1687280": {
     "name": "Starfighter Aces",
@@ -24330,7 +24330,7 @@
   "2097630": {
     "name": "Ka: Keepers & Assassins",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "2190410": {
     "name": "Beach Runner",
@@ -28565,7 +28565,7 @@
   "2642030": {
     "name": "Hot Redheads",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1127110": {
     "name": "Outpost",
@@ -34606,7 +34606,7 @@
   "3838660": {
     "name": "BPROOF",
     "has_chinese": false,
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "1103620": {
     "name": "青岚血枫",
@@ -63201,8 +63201,8 @@
   },
   "2629280": {
     "name": "Dread Protocol",
-    "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
   },
   "1354690": {
     "name": "Girls' civilization 2",
@@ -71260,7 +71260,7 @@
   "4174990": {
     "name": "SUPER BOARD BASEBALL",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "1221080": {
     "name": "Strip 4: Classmate Study",
@@ -78628,7 +78628,7 @@
   "2151530": {
     "name": "YOU ARE THE DINNER",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "15170": {
     "name": "Heroes of Might & Magic V",
@@ -79299,7 +79299,8 @@
   "2758150": {
     "name": "Blast Processed",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "4051130": {
     "name": "Tomato Dealer Playtest",
@@ -95558,7 +95559,7 @@
   "1975520": {
     "name": "Astronomics",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3004470": {
     "name": "Salvor DEEP",
@@ -100359,7 +100360,7 @@
   "3035640": {
     "name": "Lalli",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2683630": {
     "name": "FACEMINER Playtest",
@@ -119638,7 +119639,7 @@
   "2291390": {
     "name": "Peaceful Lands",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "398940": {
     "name": "Respawn Man",
@@ -130841,7 +130842,7 @@
   "2981860": {
     "name": "Cube Crawler",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "629840": {
     "name": "Caligo",
@@ -131861,7 +131862,7 @@
   "2310620": {
     "name": "Ballooni - balloon homunculus",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "1445360": {
     "name": "MUZEGATE",
@@ -147769,7 +147770,7 @@
   "358360": {
     "name": "Raptor: Call of the Shadows (1994 Classic Edition)",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2167880": {
     "name": "Oylinder",
@@ -169226,7 +169227,7 @@
   "3716090": {
     "name": "Drowning Ashes",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1414800": {
     "name": "Wet steps",
@@ -170496,7 +170497,7 @@
   "3394040": {
     "name": "Landonia",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "388880": {
     "name": "Oxenfree",
@@ -170861,7 +170862,7 @@
   "3204240": {
     "name": "The Tale of Relm",
     "has_chinese": false,
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "2542060": {
     "name": "天のゆくるる",
@@ -175176,7 +175177,7 @@
   "3365430": {
     "name": "ファンタジーワールド ～魔王の想いと真実と～",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2833860": {
     "name": "KUNKUN League",
@@ -180027,7 +180028,7 @@
   "2654430": {
     "name": "Zumbido Seele",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1699020": {
     "name": "Mix Universe Playtest",
@@ -189741,7 +189742,7 @@
   "1450300": {
     "name": "Battleships: Command of the Sea",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2143410": {
     "name": "Rat Shoot",
@@ -191327,7 +191328,7 @@
   "3769380": {
     "name": "Spectator 3",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "1781030": {
     "name": "Fishing Paradiso",
@@ -203608,7 +203609,7 @@
   "1653510": {
     "name": "Ukrainian Soccer  ( any two points directed towards the net can score )",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "1085340": {
     "name": "Flandre's dream.  - 36000 ft deep -",
@@ -208304,7 +208305,7 @@
   "1713550": {
     "name": "Star Witch",
     "has_chinese": false,
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "871420": {
     "name": "Lovecraft's Untold Stories",
@@ -227162,7 +227163,7 @@
   "3381120": {
     "name": "ZDSimulator",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1991690": {
     "name": "Fruit Juice",
@@ -229094,7 +229095,7 @@
   "3454580": {
     "name": "KAAZ - Featuring Akilah & Zak",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2774830": {
     "name": "Seven Lovers In The House",
@@ -229695,7 +229696,7 @@
   "2000980": {
     "name": "Maku",
     "has_chinese": false,
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "2734760": {
     "name": "DRAKE Playtest",
@@ -243496,7 +243497,7 @@
   "2145950": {
     "name": "The Woods",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "1024540": {
     "name": "Alien League",
@@ -248728,7 +248729,7 @@
   "3394900": {
     "name": "トリと木の実",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "2404610": {
     "name": "You Are Tre",
@@ -249298,7 +249299,7 @@
   "1376960": {
     "name": "Dead World",
     "has_chinese": false,
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "1935430": {
     "name": "Cowboy Hell",
@@ -253048,9 +253049,9 @@
     "last_checked": "2026-02-02"
   },
   "3853980": {
-    "name": "Town of Honor",
+    "name": "名誉の町",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2080670": {
     "name": "Dark Lady",
@@ -258800,7 +258801,7 @@
   "2620590": {
     "name": "Marron's Day",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3481550": {
     "name": "K.I.D.N.A.P",
@@ -262762,7 +262763,7 @@
   "1720470": {
     "name": "The VII Enigma",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "327980": {
     "name": "Dragon Fantasy: The Volumes of Westeria",
@@ -263513,7 +263514,7 @@
   "3465740": {
     "name": "V2 Cucumber Scam",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "814540": {
     "name": "Changed",
@@ -264172,8 +264173,8 @@
   },
   "1212610": {
     "name": "Nijikoi no Houkakou",
-    "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
   },
   "1411700": {
     "name": "Doko Roko",
@@ -282554,7 +282555,7 @@
   "280380": {
     "name": "Uprising44: The Silent Shadows",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1837230": {
     "name": "Jerez's Arena Ⅱ",
@@ -285479,7 +285480,7 @@
   "2334590": {
     "name": "Zong",
     "has_chinese": false,
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "1935300": {
     "name": "Stack World",
@@ -293693,7 +293694,7 @@
   "3095800": {
     "name": "SUPER Dungeon Muncher",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2530420": {
     "name": "Fatermyth",
@@ -296074,7 +296075,7 @@
   "1600260": {
     "name": "Kawaii Girls",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1652920": {
     "name": "The Legends in Kylamar Playtest",
@@ -297054,7 +297055,7 @@
   "3119430": {
     "name": "Ascendant Realms",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2903710": {
     "name": "Lost Lullabies: The Orphanage Chronicles",
@@ -311587,7 +311588,7 @@
   "2979440": {
     "name": "Peaches Interplanetary",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1072930": {
     "name": "Blood Magic",
@@ -321155,7 +321156,7 @@
   "1380830": {
     "name": "Space Kettle",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3833120": {
     "name": "Soy Supremacy",
@@ -323811,7 +323812,7 @@
   "2063480": {
     "name": "Voltage High Society",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4001540": {
     "name": "异星漂流 Playtest",
@@ -336830,7 +336831,7 @@
   "2093870": {
     "name": "Reddish",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "949600": {
     "name": "Intergalactic Fishing",
@@ -350103,7 +350104,7 @@
   "3292270": {
     "name": "Project MT",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2129550": {
     "name": "Divine Duel Playtest",
@@ -358004,7 +358005,7 @@
   "3829180": {
     "name": "HARVESTED",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "2442050": {
     "name": "Edmund and Eliza",
@@ -358801,7 +358802,7 @@
   "3717700": {
     "name": "Off World Racing",
     "has_chinese": false,
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "107600": {
     "name": "Waves",
@@ -359101,7 +359102,7 @@
   "3902670": {
     "name": "INIMICUS",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3445340": {
     "name": "Sandwich Simulator",
@@ -371446,7 +371447,7 @@
   "2298300": {
     "name": "CARNAGE OFFERING Tower Defense",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "65560": {
     "name": "Painkiller Redemption",
@@ -374080,7 +374081,7 @@
   "3449070": {
     "name": "Barfbot",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1270500": {
     "name": "Snow Apocalypse",
@@ -377661,9 +377662,9 @@
     "last_checked": "2026-02-02"
   },
   "2465460": {
-    "name": "Fairies Praying To Heaven 2 ~ Great Devil's Return Match ~",
+    "name": "妖精天祈祷2 ~ 大悪魔のリターンマッチ ~",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2878170": {
     "name": "BDSM Sex - Episode 3",
@@ -381724,7 +381725,7 @@
   "929600": {
     "name": "Can You find it?",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "306550": {
     "name": "Runers",
@@ -382990,7 +382991,7 @@
   "3221570": {
     "name": "Fruity Rogue",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "662230": {
     "name": "Trendpoker 3D: Texas Hold'em Poker",
@@ -390039,7 +390040,8 @@
   "2112380": {
     "name": "Negative Atmosphere: Emergency Room Prototype",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "706850": {
     "name": "Devader",
@@ -425454,7 +425456,7 @@
   "2339490": {
     "name": "Pirate Patrol",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "453780": {
     "name": "Secrets of Magic: The Book of Spells",
@@ -433730,7 +433732,8 @@
   "2610280": {
     "name": "The Finnish War x Sotidrokhima: Finlandsaga",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "3649080": {
     "name": "Allen Playtest",
@@ -445473,7 +445476,7 @@
   "3298050": {
     "name": "Crime Investigator",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3715390": {
     "name": "Star Gun",
@@ -453652,7 +453655,7 @@
   "336060": {
     "name": "Raptor: Call of The Shadows - 2015 Edition",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1738550": {
     "name": "Dalruan: World of Magic",
@@ -464759,7 +464762,7 @@
   "568670": {
     "name": "Trapped Souls",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3821350": {
     "name": "Vengeance",
@@ -474635,7 +474638,8 @@
   "2232840": {
     "name": "Garten of Banban",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "3772480": {
     "name": "Milf Collection",
@@ -507741,7 +507745,7 @@
   "2408720": {
     "name": "Ninnin",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2619220": {
     "name": "DeResolution",
@@ -526932,7 +526936,7 @@
   "1952340": {
     "name": "Poly Skies",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "1264800": {
     "name": "Radical Solitaire",
@@ -538827,7 +538831,7 @@
   "2424500": {
     "name": "The Wind's Path",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "403120": {
     "name": "THE GAME OF LIFE",
@@ -541377,7 +541381,7 @@
   "3842430": {
     "name": "Orange Life",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "787480": {
     "name": "Phoenix Wright: Ace Attorney Trilogy",
@@ -548012,7 +548016,7 @@
   "2279600": {
     "name": "Raw Metal",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2742800": {
     "name": "Inspection",
@@ -554089,7 +554093,7 @@
   "3764920": {
     "name": "Relax Scramble: Endless Word Puzzle",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "871150": {
     "name": "Noble Crusade",
@@ -554964,7 +554968,7 @@
   "2506470": {
     "name": "Hunter Girls",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3500": {
     "name": "Mystery P.I.™ - The Lottery Ticket",
@@ -559899,7 +559903,7 @@
   "1359800": {
     "name": "The Soldiers Factory",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "2290760": {
     "name": "Neighbors",
@@ -560774,7 +560778,7 @@
   "3840890": {
     "name": "Lunera",
     "has_chinese": false,
-    "last_checked": "2026-06-13"
+    "last_checked": "2026-06-28"
   },
   "2444840": {
     "name": "Cryptid",
@@ -578655,7 +578659,7 @@
   "2201110": {
     "name": "Sotidrokhima",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "665950": {
     "name": "Creepy Races",
@@ -580015,7 +580019,7 @@
   "2080020": {
     "name": "Home By The River",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "1240620": {
     "name": "kosmickop",
@@ -581040,7 +581044,7 @@
   "3764890": {
     "name": "PLAYNESE: Master Japanese",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "1394330": {
     "name": "乱世奇谋Stratagem in troubled times",
@@ -585017,7 +585021,7 @@
   "3897310": {
     "name": "みんなで Physical TRAIN ～チャムランド国営鉄道～",
     "has_chinese": false,
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "1020510": {
     "name": "Supernatural Shenanigans",
@@ -587518,7 +587522,7 @@
   "1464220": {
     "name": "Netherguild",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "421260": {
     "name": "Militia",
@@ -592046,7 +592050,7 @@
   "1566830": {
     "name": "Magna Graecia",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3067340": {
     "name": "Dude Fighter",
@@ -596722,7 +596726,7 @@
   "3656690": {
     "name": "Arc’s Glitch Defender",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "1976590": {
     "name": "Eternal Space",
@@ -597052,7 +597056,7 @@
   "2966150": {
     "name": "Magic Venue",
     "has_chinese": false,
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "1748020": {
     "name": "Kusari Kingdom",
@@ -605136,7 +605140,8 @@
   "3799840": {
     "name": "Tawa : Lost in Time",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "3222860": {
     "name": "60 BPM",
@@ -606955,7 +606960,7 @@
   "2372370": {
     "name": "Blood Moon Horror",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "379390": {
     "name": "Superstar Dance Club",
@@ -608865,7 +608870,7 @@
   "1533470": {
     "name": "TimeShifters",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "382350": {
     "name": "Devil's Bluff",
@@ -614835,7 +614840,7 @@
   "3861770": {
     "name": "The Sickle Family",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "4167840": {
     "name": "Dicedus",
@@ -615990,7 +615995,7 @@
     "name": "LOST IN THE DARK LABYRINTH",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4166540": {
     "name": "未練旅館(The Inn of Regret)",
@@ -617339,7 +617344,7 @@
   "3174420": {
     "name": "Flufftopia: Fluffmazing Edition by Daniel da Silva",
     "has_chinese": false,
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "2851450": {
     "name": "Crucible of the Forgotten",
@@ -617901,7 +617906,7 @@
   "2922570": {
     "name": "Tailside: Cozy Cafe Sim",
     "has_chinese": false,
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3960410": {
     "name": "Hot Property",
@@ -618376,7 +618381,7 @@
   "4076740": {
     "name": "Candy Destroyer",
     "has_chinese": false,
-    "last_checked": "2026-02-02"
+    "last_checked": "2026-06-28"
   },
   "3869430": {
     "name": "Glassy Stare",
@@ -621082,7 +621087,7 @@
     "name": "Hyperstacks",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "1116050": {
     "name": "Starminer",
@@ -621406,7 +621411,7 @@
     "name": "Rogue Kingdom",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "2372040": {
     "name": "Medieval Darkness",
@@ -622014,7 +622019,7 @@
   "3147730": {
     "name": "Seed of God",
     "has_chinese": false,
-    "last_checked": "2026-06-01"
+    "last_checked": "2026-06-28"
   },
   "3150300": {
     "name": "Novel Simulator",
@@ -622238,7 +622243,7 @@
     "name": "DARK DANCE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3333980": {
     "name": "Slaughter Void",
@@ -622289,7 +622294,7 @@
     "name": "TRAUMATA",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "3374020": {
     "name": "Buddy Bug",
@@ -622523,7 +622528,7 @@
     "name": "TCG Banlist Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-01"
+    "last_checked": "2026-06-28"
   },
   "3570350": {
     "name": "Silkgrove",
@@ -622559,7 +622564,7 @@
     "name": "Oriontis",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3583670": {
     "name": "Where the forest ends",
@@ -622990,7 +622995,7 @@
     "name": "The Calling",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "3832210": {
     "name": "Kingdom Conquer",
@@ -623392,7 +623397,7 @@
     "name": "FLASH AND DIE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3992580": {
     "name": "7 Nights with Vroombi",
@@ -623677,7 +623682,7 @@
     "name": "Online: 404",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "4094690": {
     "name": "Dry Sea",
@@ -623706,7 +623711,7 @@
     "name": "Frankenstein's Monster",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4100620": {
     "name": "Appetite of the Abyss",
@@ -623724,7 +623729,7 @@
     "name": "Very Disco, Disco Very!",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4104570": {
     "name": "程序员的刻板印象",
@@ -623814,7 +623819,7 @@
   "4129870": {
     "name": "The Abyssal Maze",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4131100": {
     "name": "Match Morphosis: Match-3 Roguelike",
@@ -623960,7 +623965,7 @@
     "name": "Cat Chess",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4163520": {
     "name": "Mermaids are Seafood",
@@ -624269,7 +624274,7 @@
     "name": "Nomnomia",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4242290": {
     "name": "SPITE: Taking the Boss's Wife, Sister and Mother",
@@ -624286,7 +624291,7 @@
     "name": "Sector 13: Haunted Woods",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4245820": {
     "name": "ORBITAL",
@@ -624625,7 +624630,7 @@
     "name": "Memories Loaming",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4310510": {
     "name": "不是魅魔",
@@ -624673,7 +624678,7 @@
     "name": "Almost Home",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4315230": {
     "name": "Foul Deeds of Iblis",
@@ -625019,13 +625024,13 @@
     "name": "Horn of the Warlord",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4380220": {
     "name": "NULL",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4381200": {
     "name": "Kami: The Great Guardian",
@@ -625089,7 +625094,7 @@
     "name": "Artillery Miner",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4391710": {
     "name": "_archive",
@@ -625204,7 +625209,7 @@
     "name": "別管這些塔！",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4421630": {
     "name": "Soul Tripper",
@@ -625216,7 +625221,7 @@
     "name": "REQUIRED SYNERGY WORKSHOP: Deja Damnation",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4424950": {
     "name": "Skyship Quest Story",
@@ -625411,7 +625416,7 @@
     "name": "Slotbound",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4459830": {
     "name": "Ball Buster Breakout",
@@ -625462,7 +625467,7 @@
     "name": "PinRogue",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4465680": {
     "name": "Bauble",
@@ -625559,7 +625564,7 @@
   "4498650": {
     "name": "Covert X Universe",
     "has_chinese": false,
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4498850": {
     "name": "RIPCORE",
@@ -625780,7 +625785,7 @@
     "name": "Rush Hour Relay",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4525520": {
     "name": "Jarred Defense",
@@ -625815,7 +625820,7 @@
     "name": "Rage Box",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4529690": {
     "name": "Cowgirl Milk Cafe",
@@ -625849,7 +625854,7 @@
     "name": "DiDiDiG",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4534200": {
     "name": "Incremental Retro Racing",
@@ -625969,7 +625974,7 @@
     "name": "The Totemist",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4546810": {
     "name": "Lights, Cards, Action!",
@@ -626096,7 +626101,7 @@
     "name": "KAIJECT",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "4564040": {
     "name": "OfMiceAndMechs",
@@ -626159,7 +626164,7 @@
     "name": "G.H.O.S.T. Ghost Hunt Ops Special Team",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "4568000": {
     "name": "POUND SAND",
@@ -626212,7 +626217,7 @@
     "name": "Secho",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-01"
+    "last_checked": "2026-06-28"
   },
   "4571160": {
     "name": "Rainbow Tower Defense",
@@ -626236,7 +626241,7 @@
     "name": "Bean Wizard Eviscerates the Gonklins",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4576390": {
     "name": "GOHEI",
@@ -626300,7 +626305,7 @@
     "name": "2 Players 1 Character",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4585250": {
     "name": "Cascade",
@@ -626714,7 +626719,7 @@
     "name": "Undefined 339",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4631970": {
     "name": "The Day I Started Harvesting",
@@ -626732,7 +626737,7 @@
     "name": "Breakaway",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4633070": {
     "name": "Skybound Temptation",
@@ -627000,7 +627005,7 @@
     "name": "Dev Life: Tap & Code",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4665670": {
     "name": "Sprouts of Light",
@@ -627083,7 +627088,7 @@
     "name": "Infinite Backrooms",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4675130": {
     "name": "surfass",
@@ -627123,7 +627128,7 @@
     "name": "小小元素精靈 (Little Elementals)",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4678780": {
     "name": "Solar Drift",
@@ -627192,7 +627197,7 @@
   "4685090": {
     "name": "Hold'em Fold'em Poker",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4686400": {
     "name": "Stairway to Heaven",
@@ -627256,7 +627261,7 @@
     "name": "No One Returns",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4692770": {
     "name": "Extinction Cycle",
@@ -627318,7 +627323,7 @@
     "name": "Relay Protocol",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4699010": {
     "name": "Anatolian Horror Stories : Curse In Bayramdere",
@@ -627351,7 +627356,7 @@
     "name": "Babel Legacy",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4700090": {
     "name": "Eternal Fracture",
@@ -627506,7 +627511,7 @@
     "name": "Mind Gazing",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4709940": {
     "name": "Final Legal Move",
@@ -627582,7 +627587,7 @@
     "name": "Meander",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4715200": {
     "name": "EverDark",
@@ -627616,7 +627621,7 @@
   "4718880": {
     "name": "Цикл прошлого",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4719720": {
     "name": "Poping Aquarium",
@@ -627857,7 +627862,7 @@
     "name": "Cockroach Simulation",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-01"
+    "last_checked": "2026-06-28"
   },
   "4750100": {
     "name": "FERALPALS",
@@ -628056,7 +628061,7 @@
     "name": "Project_Khatanga_1989_Incremental",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4767390": {
     "name": "Game About Botting in an MMORPG",
@@ -628149,7 +628154,7 @@
     "name": "Dere Quintet",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4776440": {
     "name": "Cruorfall",
@@ -628228,7 +628233,7 @@
     "name": "Blightsilver",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4787030": {
     "name": "Merge Hidden 合成寻物",
@@ -628570,7 +628575,7 @@
     "name": "Netspectre",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-07"
+    "last_checked": "2026-06-28"
   },
   "1921490": {
     "name": "Wild Blue Skies",
@@ -628599,7 +628604,7 @@
   "1958800": {
     "name": "Duppy Detective Tashia",
     "has_chinese": false,
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "1962010": {
     "name": "Space Scavenger 2",
@@ -629027,7 +629032,7 @@
     "name": "BomBom Saga",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2766910": {
     "name": "PengPong 彈企鵝",
@@ -629039,7 +629044,7 @@
     "name": "Beware the Depths",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "2803490": {
     "name": "Atomcraft",
@@ -629481,7 +629486,7 @@
     "name": "Stuff to do",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3211720": {
     "name": "Erosion",
@@ -629557,7 +629562,7 @@
     "name": "Danu: Rise of the Templars",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "3281790": {
     "name": "Vape Store Miami",
@@ -630344,7 +630349,7 @@
     "name": "Battleplan",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3745840": {
     "name": "飢荒巷 Hunger Lane",
@@ -630368,7 +630373,7 @@
     "name": "长干里酒吧",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "3753790": {
     "name": "Hunters In The Dark",
@@ -630507,7 +630512,7 @@
     "name": "Mind Inc",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3798350": {
     "name": "InOut",
@@ -630668,7 +630673,7 @@
     "name": "WATERPUNK",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3860680": {
     "name": "Tango District",
@@ -630895,7 +630900,7 @@
     "name": "Hell Wait",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "3936730": {
     "name": "星塵軌跡：魔女之願",
@@ -630934,7 +630939,7 @@
     "name": "DISJOINED",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "3943860": {
     "name": "Rysk of Pain",
@@ -631147,7 +631152,7 @@
     "name": "Erotic Cosmic Sheriff ORGIVAN – Vol. 1",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4014100": {
     "name": "Model Kit Shop Simulator",
@@ -632173,9 +632178,8 @@
   },
   "4306780": {
     "name": "Integrity",
-    "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
   },
   "4308170": {
     "name": "DVD Screensaver 2: 30th Anniversary Survivors Edition",
@@ -632253,7 +632257,7 @@
     "name": "Commutator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4320160": {
     "name": "海王模拟器",
@@ -632445,7 +632449,7 @@
     "name": "Card Homestead",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4359960": {
     "name": "Rayborne",
@@ -632692,7 +632696,7 @@
   "4409760": {
     "name": "J. El Tanquista",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4410220": {
     "name": "Kicking Upwards",
@@ -633020,7 +633024,7 @@
     "name": "Surf Sandbox",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4482250": {
     "name": "Wormhusk",
@@ -633134,7 +633138,7 @@
     "name": "Room Craft",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4509600": {
     "name": "SFTP - Super Football Tactics Pro",
@@ -633299,7 +633303,7 @@
     "name": "Throughput",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4536600": {
     "name": "Thieves and Tasers",
@@ -633371,7 +633375,7 @@
     "name": "Retro Pond",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4541910": {
     "name": "Agari — Riichi Mahjong",
@@ -633400,7 +633404,7 @@
     "name": "Zero Sum",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4547970": {
     "name": "Pih 2",
@@ -633429,7 +633433,7 @@
     "name": "The Apprentice",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4551150": {
     "name": "陛下，請蓋章！",
@@ -633622,7 +633626,7 @@
     "name": "Spheroll",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4576550": {
     "name": "The Sleepless Nights Origins",
@@ -633730,7 +633734,7 @@
     "name": "Neverquest",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4589200": {
     "name": "Sylv and the Ancient Tree",
@@ -633801,7 +633805,7 @@
     "name": "Hero of the Kingdom IV",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-04"
+    "last_checked": "2026-06-28"
   },
   "4606070": {
     "name": "Deadly Obsession",
@@ -633830,7 +633834,7 @@
     "name": "Sunfall '80",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "4607930": {
     "name": "DVD Dealer Simulator",
@@ -634005,7 +634009,7 @@
     "name": "天机：大唐重构",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4636380": {
     "name": "TheLastHelicopter",
@@ -634230,7 +634234,7 @@
     "name": "Cosmic Crumbs: Bakery Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4665370": {
     "name": "Folclore Xamin",
@@ -634271,8 +634275,7 @@
   "4669110": {
     "name": "Scum's Errand",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "4669960": {
     "name": "Dungeon Lurker",
@@ -634609,7 +634612,7 @@
     "name": "onRails",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4710400": {
     "name": "Deep Sea Fish: Hidden World",
@@ -634891,7 +634894,7 @@
     "name": "I.D. ENTITY",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4740270": {
     "name": "stardozing",
@@ -635588,7 +635591,7 @@
     "name": "永恒沉眠：爱与杀戮的乐园 Eternal Slumber：Paradise of love and death",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "1492100": {
     "name": "Fantasy Network",
@@ -636381,7 +636384,7 @@
     "name": "TakeDogs",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "3091000": {
     "name": "Dawn of Discovery",
@@ -636522,7 +636525,7 @@
     "name": "Droning On",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3184620": {
     "name": "Meet the Master",
@@ -636604,7 +636607,7 @@
     "name": "Satelital",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3259380": {
     "name": "Bouncing to the top with Quantum Quacks",
@@ -636795,7 +636798,7 @@
     "name": "Supreme Heroes",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3436130": {
     "name": "冥雄鬼屋：玫瑰與詛咒的奏鳴曲 ",
@@ -637169,7 +637172,7 @@
     "name": "The Well's Blessing",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-02"
+    "last_checked": "2026-06-28"
   },
   "3637610": {
     "name": "Cross Country Case",
@@ -637551,7 +637554,7 @@
     "name": "Pathogenic",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3809410": {
     "name": "Beer Manufacture Simulator",
@@ -637777,8 +637780,8 @@
   "3894960": {
     "name": "Desktop Snail Assassin",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "3896980": {
     "name": "Campsite Architect",
@@ -637946,7 +637949,7 @@
     "name": "靜穆急行列車909號房",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "3962420": {
     "name": "Futa Slug EX",
@@ -638506,7 +638509,7 @@
   "4147770": {
     "name": "Aakihiko Aaruberutasu Aadisony Aazumeragi: SRPG Tactical",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4153250": {
     "name": "EmbeRogue",
@@ -638547,7 +638550,7 @@
     "name": "Drift Splatter",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4172090": {
     "name": "百層歸途",
@@ -638661,7 +638664,7 @@
     "name": "R.I.P.",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-13"
+    "last_checked": "2026-06-28"
   },
   "4210220": {
     "name": "Purgatory Pitstop",
@@ -638684,7 +638687,7 @@
     "name": "Lullabies Made of Static",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "4218020": {
     "name": "性愛調教師:悶騷少女的秘密性癖",
@@ -638878,7 +638881,7 @@
     "name": "Nile Express",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4265920": {
     "name": "Co-Drive Chaos",
@@ -639185,7 +639188,7 @@
     "name": "蔚藍無限 -Azure Infinity-",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4331100": {
     "name": "Warena",
@@ -639265,7 +639268,7 @@
     "name": "WildCraft",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4347620": {
     "name": "Risen Blade",
@@ -639803,7 +639806,7 @@
     "name": "Backrooms: Collision Not Found",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4478640": {
     "name": "背包地牢",
@@ -639879,7 +639882,7 @@
     "name": "Elite MMA Manager",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4500870": {
     "name": "What We Bring",
@@ -639966,7 +639969,7 @@
     "name": "MythGotchi",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4513700": {
     "name": "Glider Sim Lite – Soaring Simulator",
@@ -640112,7 +640115,7 @@
     "name": "VELATO",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4546490": {
     "name": "Arkansas 2125",
@@ -640152,7 +640155,7 @@
     "name": "Court Wizard",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4551870": {
     "name": "Ruffed Up",
@@ -640332,7 +640335,7 @@
     "name": "Harvest Dice Profit",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4585020": {
     "name": "Golgothian",
@@ -640412,7 +640415,7 @@
     "name": "Bonki D Bonk",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4596690": {
     "name": "Catnip Craze",
@@ -640670,7 +640673,7 @@
     "name": "All Vans on Deck",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4638130": {
     "name": "Hustlin' Every Day",
@@ -641246,7 +641249,7 @@
     "name": "500KTV",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4707120": {
     "name": "VoxelMancy",
@@ -641545,7 +641548,7 @@
     "name": "Tactics Wanderer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4736940": {
     "name": "瑪麗編輯器",
@@ -641723,7 +641726,7 @@
     "name": "Delphi",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4751300": {
     "name": "Antarda",
@@ -641757,8 +641760,7 @@
   "4753080": {
     "name": "Decian",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4753090": {
     "name": "RobotSurvivors",
@@ -641957,7 +641959,7 @@
     "name": "The Inspector",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4768570": {
     "name": "All Possible Suspects",
@@ -641975,7 +641977,7 @@
     "name": "Overhatched",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4769850": {
     "name": "Prostitute Empire",
@@ -641986,7 +641988,7 @@
     "name": "暗面 Dark Side Void",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4771290": {
     "name": "Hands Up, G!",
@@ -642209,8 +642211,7 @@
   "4789820": {
     "name": "galaksia online",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4790340": {
     "name": "Cultivation: Mystic Realm of Spirit Mountain",
@@ -642260,7 +642261,7 @@
     "name": "SCREAM NOTE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4792210": {
     "name": "Hexilibrium",
@@ -642288,7 +642289,7 @@
     "name": "Catacomb",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4795190": {
     "name": "Until I Forget Me",
@@ -642369,7 +642370,7 @@
     "name": "VXE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "1372190": {
     "name": "Focus Train: Lofi Journey",
@@ -642393,7 +642394,7 @@
     "name": "ARKADIANAX",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "1526540": {
     "name": "貓與地下城",
@@ -642653,7 +642654,7 @@
     "name": "A Simple Square",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "2255670": {
     "name": "Project Confrontation",
@@ -642694,7 +642695,7 @@
     "name": "CultureHouse",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2317180": {
     "name": "Cube Crusaders",
@@ -642806,7 +642807,7 @@
     "name": "Elidriel",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "2437790": {
     "name": "Sol Survivor",
@@ -642846,7 +642847,7 @@
     "name": "Nimbit Frontier",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2482980": {
     "name": "Just in Crime",
@@ -643007,7 +643008,7 @@
     "name": "Unwell",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "2669450": {
     "name": "My Child New Beginnings",
@@ -643162,7 +643163,7 @@
     "name": "Tired",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "2885380": {
     "name": "Gold Mining Simulator 2",
@@ -643303,7 +643304,7 @@
     "name": "Board Game Society",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3055070": {
     "name": "Fateful Bullet",
@@ -643446,7 +643447,7 @@
     "name": "魔法之境 Magic Realm",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3194500": {
     "name": "Vegawon's Legacy",
@@ -643685,7 +643686,7 @@
     "name": "Few Shall Return",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "3383080": {
     "name": "Professor Torus Tinker and his Titillating Tales (A Gay Sci-Fi Adventure)",
@@ -644056,7 +644057,7 @@
     "name": "Exit Ways",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3620520": {
     "name": "IN SILICO",
@@ -644073,7 +644074,7 @@
     "name": "Revolver Lillies",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-03"
+    "last_checked": "2026-06-28"
   },
   "3635490": {
     "name": "鎬定星礦 Orebits",
@@ -644652,13 +644653,13 @@
     "name": "[HERROR] Gas Station Case",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "3904850": {
     "name": "Approximately Up",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3907940": {
     "name": "MMO98",
@@ -644722,7 +644723,7 @@
     "name": "Why's It Getting DARKER?!",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3934290": {
     "name": "Cafe of Roses",
@@ -645160,7 +645161,7 @@
     "name": "Moth Terra",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4088480": {
     "name": "ChimpUP!",
@@ -645178,7 +645179,7 @@
     "name": "SHALTER-03",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4101110": {
     "name": "B.O.B.Y's Journey",
@@ -645431,7 +645432,7 @@
     "name": "20th Century Warfare",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4170220": {
     "name": "Dave.EXE",
@@ -645852,7 +645853,7 @@
     "name": "Fuel Cell",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-03"
+    "last_checked": "2026-06-28"
   },
   "4270230": {
     "name": "Idle Bookstore",
@@ -646154,7 +646155,7 @@
     "name": "XeGrader plus",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4326180": {
     "name": "Cognitive Fracture",
@@ -646190,7 +646191,7 @@
     "name": "FROGGLE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4334840": {
     "name": "中生代黎明",
@@ -646237,7 +646238,7 @@
     "name": "Prophecy of Vul",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-03"
+    "last_checked": "2026-06-28"
   },
   "4346140": {
     "name": "Project: Idol / Empire",
@@ -646317,7 +646318,7 @@
     "name": "Corridors",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "4366830": {
     "name": "SVETIK",
@@ -646531,7 +646532,7 @@
     "name": "Hooligan Town",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "4409320": {
     "name": "床下有罐钱money under the bed",
@@ -647032,8 +647033,7 @@
   "4526620": {
     "name": "BalanceUP",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "4527560": {
     "name": "Ghostin Machine",
@@ -647281,7 +647281,7 @@
     "name": "Dream Ocean",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4569260": {
     "name": "Nytherra",
@@ -647293,7 +647293,7 @@
     "name": "GAP OR DIE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4573360": {
     "name": "From Scratch",
@@ -647340,7 +647340,7 @@
     "name": "Haunted Cleaner",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-03"
+    "last_checked": "2026-06-28"
   },
   "4578750": {
     "name": "不死精灵",
@@ -647508,7 +647508,7 @@
     "name": "ConOps21: Subversion Protocol",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4604660": {
     "name": "Project HN",
@@ -647657,7 +647657,7 @@
     "name": "Desk Space: Idle Spacefleet clicker",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4617040": {
     "name": "Backrooms: Into the Hole",
@@ -647980,7 +647980,7 @@
     "name": "Memoirs",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-03"
+    "last_checked": "2026-06-28"
   },
   "4662250": {
     "name": "Resurgis: Rise of the Dead",
@@ -648013,9 +648013,8 @@
   },
   "4667670": {
     "name": "lovely bakery",
-    "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-03"
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
   },
   "4668740": {
     "name": "慾焰盆景",
@@ -648085,7 +648084,7 @@
     "name": "The Abyss Below",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4679730": {
     "name": "Estancia Protocol Zero",
@@ -648191,7 +648190,7 @@
     "name": "Happy Endings",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4690270": {
     "name": "Arena 2006",
@@ -648293,7 +648292,7 @@
     "name": "The Birth Cry",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4700590": {
     "name": "One More Dig!",
@@ -648579,13 +648578,13 @@
     "name": "Dream Game",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "4727940": {
     "name": "OxVOID",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4728560": {
     "name": "Solis",
@@ -649102,8 +649101,7 @@
   "4781900": {
     "name": "Bust a Nut! A Game About Raising Cocks",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "4782250": {
     "name": "Cycling Champion",
@@ -649775,7 +649773,7 @@
     "name": "False Hero",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "2542850": {
     "name": "Book of Infinity: 1001 Nights",
@@ -650314,7 +650312,7 @@
     "name": "旧日余晖Remnant Afterglow",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3195580": {
     "name": "莉莉的世界 XD",
@@ -650452,7 +650450,7 @@
     "name": "無限彈射礦場",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "3309250": {
     "name": "The Rift Tower Defense",
@@ -650732,7 +650730,7 @@
     "name": "Ecosystem Architect",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "3549280": {
     "name": "Bulbo's Belief System",
@@ -651008,7 +651006,7 @@
     "name": "奶茶店模拟器 - 重生之我在冰堡甜城当店长",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "3690850": {
     "name": "Asterika: Phantom Rose Refrain",
@@ -652179,7 +652177,7 @@
     "name": "Backrooms: Research",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4162150": {
     "name": "Ash of Gods: Tactics",
@@ -652325,7 +652323,7 @@
     "name": "Horns",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4213810": {
     "name": "Gardens Of Lutonia",
@@ -652365,7 +652363,7 @@
     "name": "Darts RPG",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-09"
+    "last_checked": "2026-06-28"
   },
   "4224660": {
     "name": "YOU vs Zombies",
@@ -652567,7 +652565,7 @@
     "name": "Abyss Prowler",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4278220": {
     "name": "Runic Curse Remastered",
@@ -653106,7 +653104,7 @@
     "name": "My Fire Is Bigger Than Yours",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4429710": {
     "name": "Spellogger",
@@ -653153,7 +653151,7 @@
     "name": "Simulation 9",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4436740": {
     "name": "Level Up, Tiny King!",
@@ -653298,7 +653296,7 @@
     "name": "Forgetting",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4485870": {
     "name": "甜心之怒 Wrath Of Sweetheart",
@@ -653428,8 +653426,7 @@
   "4513600": {
     "name": "Infinite Empire",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4516020": {
     "name": "Gravity Slugger",
@@ -653502,7 +653499,7 @@
   "4530610": {
     "name": "Clutch Legend: FPS Career Simulator",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4531250": {
     "name": "Tiny Dwellings",
@@ -653678,7 +653675,7 @@
     "name": "Eslabong",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4561540": {
     "name": "You must evolve it! Incremental",
@@ -653726,7 +653723,7 @@
     "name": "Cluster - Roguelike Tower Defense",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4567970": {
     "name": "Wellspring",
@@ -653804,7 +653801,7 @@
     "name": "時空雨旅",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4589020": {
     "name": "Mother Zina",
@@ -654049,7 +654046,7 @@
     "name": "问鼎仙台（Ascend to Immortal Throne）",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4622430": {
     "name": "Annexation",
@@ -654216,7 +654213,7 @@
     "name": "Savior Method",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4651850": {
     "name": "Mortis Loop",
@@ -654234,7 +654231,7 @@
     "name": "Deep Space Miner",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4653480": {
     "name": "Greebly Gambit",
@@ -654581,7 +654578,7 @@
     "name": "Lone Lines: RPG",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4699890": {
     "name": "7 DEADLY DEMONS",
@@ -655142,13 +655139,13 @@
   "4769010": {
     "name": "Promo Wrestling World",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4769130": {
     "name": "Magical Girl: incremental gaiden",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4769950": {
     "name": "Mini Speedy Racers",
@@ -655307,7 +655304,7 @@
     "name": "明末：甲申年",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4786340": {
     "name": "Hentai Tales: The Lewd Streamer Living Beside Me",
@@ -655380,7 +655377,7 @@
     "name": "Clairval",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4791800": {
     "name": "白鍵上的協奏曲：貝斯英雄",
@@ -655450,7 +655447,7 @@
     "name": "街机女孩不会认输!!",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-04"
+    "last_checked": "2026-06-28"
   },
   "4798970": {
     "name": "I'm Having A Bad Day",
@@ -655587,7 +655584,7 @@
     "name": "Ruin",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "757550": {
     "name": "Football Story",
@@ -655605,7 +655602,7 @@
     "name": "暗星鐵律 Pax Autocratica",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "1112390": {
     "name": "HyperCore : Rhythm Bullet Hell",
@@ -656703,7 +656700,7 @@
     "name": "Pico Drift",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-05"
+    "last_checked": "2026-06-28"
   },
   "3333190": {
     "name": "Road Truckers: New Beginning",
@@ -657854,7 +657851,7 @@
     "name": "Rick Henderson: Eternal Arena",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3966120": {
     "name": "地下城打工日常",
@@ -658534,7 +658531,7 @@
     "name": "增量無限",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4210350": {
     "name": "Samota",
@@ -658654,7 +658651,7 @@
     "name": "Path of Idle: Old Gods Rising",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4250010": {
     "name": "回鄉後，有超可愛幽靈在我家!?",
@@ -658765,7 +658762,7 @@
     "name": "放置:纸色新境",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "4272370": {
     "name": "Coal Duty",
@@ -658857,7 +658854,7 @@
   "4297420": {
     "name": "Sovereign's End",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4298470": {
     "name": "闪耀！我的游戏班",
@@ -658922,7 +658919,7 @@
     "name": "SnekromancY",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4315550": {
     "name": "The Carcass",
@@ -659072,7 +659069,7 @@
   "4353210": {
     "name": "Gravity's Edge",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4353630": {
     "name": "Summer Sisters",
@@ -659381,7 +659378,7 @@
     "name": "Lux Anima",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4444500": {
     "name": "FUTAHAMMER",
@@ -659527,7 +659524,7 @@
     "name": "Losing Sanity",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-05"
+    "last_checked": "2026-06-28"
   },
   "4487310": {
     "name": "Tasty Beverage",
@@ -660198,7 +660195,7 @@
     "name": "Hug Factory",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-09"
+    "last_checked": "2026-06-28"
   },
   "4641440": {
     "name": "SKY DRIFT",
@@ -660641,7 +660638,7 @@
     "name": "BomBee",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4730180": {
     "name": "Hacker's Journey",
@@ -660853,7 +660850,7 @@
     "name": "BAUSFIGHT",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4758650": {
     "name": "+ SHORTCIRCUIT -",
@@ -661294,7 +661291,7 @@
     "name": "Flip-Off",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-07"
+    "last_checked": "2026-06-28"
   },
   "4808290": {
     "name": "Nozomu School Daze",
@@ -661312,7 +661309,7 @@
     "name": "WackyWackyWacky",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "4808720": {
     "name": "2026 U.S. Election Simulator",
@@ -661625,7 +661622,7 @@
     "name": "DeadRoot",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "2377450": {
     "name": "Mayor May Knott",
@@ -662223,7 +662220,7 @@
     "name": "lovebyte.exe",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3498700": {
     "name": "Appulse",
@@ -662246,7 +662243,7 @@
   "3511360": {
     "name": "ZombUs",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3516430": {
     "name": "Management In Space",
@@ -662289,10 +662286,10 @@
     "last_checked": "2026-06-22"
   },
   "3558600": {
-    "name": "Leafy Corner",
+    "name": "綠植小築",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3563590": {
     "name": "Crew: Expendable",
@@ -662577,7 +662574,7 @@
     "name": "My Lovable Demon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3856360": {
     "name": "Donkey Jump: In the Loop",
@@ -663312,7 +663309,7 @@
     "name": "Break Protocol",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "4279570": {
     "name": "Nowhere Road",
@@ -663408,13 +663405,13 @@
   "4299160": {
     "name": "Atomic Synthesis",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4299200": {
     "name": "Qamar",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "4302760": {
     "name": "Armita's Search",
@@ -663514,7 +663511,7 @@
     "name": "Plura Ingenia: Patient 16",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4338640": {
     "name": "BALSEO: The Sea Beyond",
@@ -663871,7 +663868,7 @@
     "name": "幻想进度条 Fantasy Bar",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4463520": {
     "name": "姆明：瘋狂夏日",
@@ -663977,7 +663974,7 @@
     "name": "Pharaoh's Secrets",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4508100": {
     "name": "StellarUniversity:FurryHearts",
@@ -664506,7 +664503,7 @@
     "name": "Waddle Detour",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4656000": {
     "name": "BOMBANANA!",
@@ -664627,7 +664624,7 @@
     "name": "LOOP: NEW REALITY",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4687870": {
     "name": "赛博：梦核少女",
@@ -664734,7 +664731,7 @@
     "name": "Skapheim: The Tenth Realm",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "4715840": {
     "name": "ARE YOU OKAY?",
@@ -664878,7 +664875,7 @@
     "name": "Stamp of Fate",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "4763010": {
     "name": "Solrend",
@@ -664902,7 +664899,7 @@
     "name": "Cannon Dinghies",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "4769080": {
     "name": "Cafe Mafia",
@@ -664926,7 +664923,7 @@
     "name": "為貓復仇！魔法師的復仇",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-06"
+    "last_checked": "2026-06-28"
   },
   "4774510": {
     "name": "Scared Numbers",
@@ -665008,7 +665005,7 @@
     "name": "MoveMe",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4789860": {
     "name": "Furry Adventure 3 - Big Boobas!",
@@ -665032,7 +665029,7 @@
     "name": "Funge",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4795120": {
     "name": "时光枝的秋叶",
@@ -665545,7 +665542,7 @@
     "name": "Nightlife Tycoon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "2672700": {
     "name": "Lands of Fury",
@@ -665561,7 +665558,7 @@
     "name": "Delverium",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-07"
+    "last_checked": "2026-06-28"
   },
   "2721030": {
     "name": "Stellagate",
@@ -665870,7 +665867,7 @@
     "name": "Goal Poacher VR",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-07"
+    "last_checked": "2026-06-28"
   },
   "3271280": {
     "name": "Shroom and Gloom",
@@ -665900,7 +665897,7 @@
     "name": "The Otherworld Laboratory",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-07"
+    "last_checked": "2026-06-28"
   },
   "3321270": {
     "name": "World Below",
@@ -666071,7 +666068,7 @@
   "3576580": {
     "name": "Ritualis: Summoner Simulator",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3604040": {
     "name": "Occult Trap",
@@ -666699,7 +666696,7 @@
     "name": "Kingdom of Hope",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4088720": {
     "name": "Waifu Pogo Club",
@@ -667337,7 +667334,7 @@
     "name": "ScareZone: Haunted Attraction Tycoon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-07"
+    "last_checked": "2026-06-28"
   },
   "4405300": {
     "name": "BATOUTTAHELL!",
@@ -667500,7 +667497,7 @@
   "4480310": {
     "name": "SpaceSteps",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4483790": {
     "name": "Frosty Fire",
@@ -667892,7 +667889,7 @@
     "name": "Drown World",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4607170": {
     "name": "Sterile Childhood: Case 17",
@@ -668154,7 +668151,7 @@
     "name": "Vossarium",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4685150": {
     "name": "Sailands",
@@ -668273,7 +668270,7 @@
     "name": "Direlands: Extraction",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4729250": {
     "name": "Airline Founder",
@@ -669837,7 +669834,7 @@
     "name": "CE-III 緩釋協議：余溦",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "3424930": {
     "name": "Tome of the Damned",
@@ -669848,7 +669845,7 @@
     "name": "Dungeons of Ironshade",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "3431760": {
     "name": "Desire's Burgers",
@@ -670350,7 +670347,7 @@
     "name": "Star Squadron",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3759220": {
     "name": "森靈旅社",
@@ -671169,7 +671166,7 @@
     "name": "Tiana's Fishing Diary",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "4128960": {
     "name": "Hell Architect: Survivors",
@@ -671871,7 +671868,7 @@
     "name": "Fit Happens: A Clothing Shop Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4363170": {
     "name": "BOOM: Excelente",
@@ -671907,7 +671904,7 @@
     "name": "Cage Bar: The Hunting Game",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "4380760": {
     "name": "Custom Image Survivors",
@@ -672151,7 +672148,7 @@
     "name": "4th & Goal",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4466830": {
     "name": "Axe And Claw",
@@ -672364,7 +672361,7 @@
     "name": "Plume",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4526510": {
     "name": "Chinese Newcomer",
@@ -672440,7 +672437,7 @@
     "name": "Solo Grinding",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4540010": {
     "name": "Business Defence",
@@ -672788,7 +672785,7 @@
     "name": "XENOFLEKT",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-08"
+    "last_checked": "2026-06-28"
   },
   "4621900": {
     "name": "Laptop Architect",
@@ -672868,8 +672865,7 @@
   "4633600": {
     "name": "MEGACITY",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4637470": {
     "name": "雷霆校場",
@@ -672927,7 +672923,7 @@
     "name": "Hantu and Hunted",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4644350": {
     "name": "Astromino",
@@ -673218,7 +673214,7 @@
     "name": "Party's Over: Backyard Cleanup Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4707970": {
     "name": "攻击就能加攻击",
@@ -673475,7 +673471,7 @@
   "4758700": {
     "name": "Thug Wars",
     "has_chinese": false,
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4760960": {
     "name": "Touch Me II",
@@ -673560,7 +673556,7 @@
   "4780470": {
     "name": "Last Dose",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4781070": {
     "name": "欺诈牌桌",
@@ -673608,7 +673604,7 @@
     "name": "Zerion: Infinite Space",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4788420": {
     "name": "Redline Protocol",
@@ -674246,7 +674242,7 @@
     "name": "SuperNatural Market: Sell or Die",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "2516900": {
     "name": "Cats & Castles",
@@ -674322,7 +674318,7 @@
     "name": "Rancher: A new life",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "2676350": {
     "name": "野餐大冒險 2",
@@ -674375,7 +674371,7 @@
     "name": "混沌兵團",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "2776270": {
     "name": "Beetleball",
@@ -674872,7 +674868,7 @@
     "name": "Steel Judgment",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3396350": {
     "name": "Macaronpolis",
@@ -675038,7 +675034,7 @@
     "name": "Fate's Masquerade: Otome Visual Novel",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-09"
+    "last_checked": "2026-06-28"
   },
   "3561380": {
     "name": "Galactic Prospectors",
@@ -675358,7 +675354,7 @@
     "name": "Underwater DuO",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3738830": {
     "name": "Bodycam Onrecord",
@@ -675586,15 +675582,14 @@
   },
   "3890380": {
     "name": "GuitarSesh",
-    "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
   },
   "3890650": {
     "name": "Reign of Victory",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3895400": {
     "name": "Brightest Star",
@@ -675770,7 +675765,7 @@
     "name": "Rain of Awakening",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-09"
+    "last_checked": "2026-06-28"
   },
   "3986100": {
     "name": "那些年，我們一起去的電動玩具店",
@@ -675856,7 +675851,7 @@
     "name": "Keepers: Fractured Realities",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-09"
+    "last_checked": "2026-06-28"
   },
   "4019280": {
     "name": "Card Game Arena",
@@ -676500,7 +676495,7 @@
     "name": "聖旨模擬器：一統天下",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4314600": {
     "name": "腳臭戰爭",
@@ -676649,8 +676644,7 @@
   "4396290": {
     "name": "Cloudsea Frontier",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4396830": {
     "name": "Dfiance: Dominance",
@@ -676683,7 +676677,7 @@
     "name": "lichtung",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4408570": {
     "name": "Lines Must Cross",
@@ -677341,7 +677335,7 @@
     "name": "The Night Walk",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4585310": {
     "name": "地狱不空 Till Hell Is Empty",
@@ -677629,7 +677623,7 @@
     "name": "国王的游戏（King'sGame）",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4645760": {
     "name": "冰櫃裡的屍體要多少錢？",
@@ -678414,7 +678408,7 @@
     "name": "European Seafreight Tycoon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-09"
+    "last_checked": "2026-06-28"
   },
   "4799050": {
     "name": "Slop Slop",
@@ -678480,7 +678474,7 @@
     "name": "Imperium of the Stars",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4805820": {
     "name": "The Leather Maker",
@@ -678522,7 +678516,7 @@
     "name": "Ball in the Basket",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4811390": {
     "name": "The Fight for Beardlandia",
@@ -678651,7 +678645,7 @@
     "name": "Prince of Vibe Code",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4820520": {
     "name": "Paranormal Meatball Simulator",
@@ -678898,7 +678892,7 @@
     "name": "Swordeye",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "2372180": {
     "name": "CyberHeart",
@@ -679435,7 +679429,7 @@
     "name": "Zeverland",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3372950": {
     "name": "ASHGARD: Infinity Mask",
@@ -679652,7 +679646,7 @@
     "name": "Uh Oh Airlines",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "3588980": {
     "name": "Age of Legacy",
@@ -679918,7 +679912,7 @@
     "name": "Dot Clicker",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "3794250": {
     "name": "The Last Tape: Before The Mine",
@@ -679976,7 +679970,7 @@
     "name": "Jungle Shadow",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3836120": {
     "name": "Land of Glarefall",
@@ -680736,7 +680730,7 @@
   "4288020": {
     "name": "Quick Brown",
     "has_chinese": false,
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "4290080": {
     "name": "Claw and Conjure",
@@ -680985,7 +680979,7 @@
     "name": "Roll n' Bounce",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4380070": {
     "name": "Reficia: The WonderLog",
@@ -681174,7 +681168,7 @@
     "name": "Ripple Runners",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-10"
+    "last_checked": "2026-06-28"
   },
   "4430870": {
     "name": "All Dice on Deck",
@@ -681186,7 +681180,7 @@
     "name": "Dust & Diamonds",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4434980": {
     "name": "Don't Wake the Queen",
@@ -681446,7 +681440,7 @@
     "name": "Age of Axiom",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4532910": {
     "name": "Battle : Frenzy Zone",
@@ -681657,7 +681651,7 @@
   "4586760": {
     "name": "Sphere TD",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4589040": {
     "name": "HouseWarming",
@@ -682076,7 +682070,7 @@
     "name": "NIGHTMIST",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4704380": {
     "name": "Beltmon",
@@ -682442,7 +682436,7 @@
     "name": "Toy Worlds Atlas",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4794420": {
     "name": "Bird Sense",
@@ -682499,7 +682493,7 @@
   "4801080": {
     "name": "Wetline - Fire Break",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4801590": {
     "name": "Hentai Tales: Booby in Black Stockings",
@@ -682517,7 +682511,7 @@
     "name": "Dude Simulator: My Apologies",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4802160": {
     "name": "REDLINE 911",
@@ -682600,7 +682594,7 @@
     "name": "SYSTEM_REBOOT",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4810060": {
     "name": "Neuro Cell",
@@ -683452,7 +683446,7 @@
     "name": "Corner Wars",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "3200520": {
     "name": "Banban's Garten: Distorting Clay",
@@ -684047,7 +684041,7 @@
     "name": "Thief's Adventure",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3883050": {
     "name": "Monkeys!¡",
@@ -684246,7 +684240,7 @@
     "name": "Rule of Iron: Dark Age",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4012690": {
     "name": "The Big Hollow: 1982",
@@ -684315,7 +684309,7 @@
     "name": "Nomad",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4076910": {
     "name": "Eldoria",
@@ -684468,10 +684462,10 @@
     "last_checked": "2026-06-15"
   },
   "4159050": {
-    "name": "活著好貴...",
+    "name": "活著好貴 Living is Expensive...",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4159470": {
     "name": "Micro RPG",
@@ -684512,7 +684506,7 @@
     "name": "Dragon Dragon Fire Fire Deluxe",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4178360": {
     "name": "Snake Coil: Puzzle Adventure",
@@ -684594,7 +684588,7 @@
     "name": "Fantasy World / 幻想世界",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4212790": {
     "name": "DIEATHLON",
@@ -685002,7 +684996,7 @@
     "name": "Goblins Can Conquer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4406990": {
     "name": "Cafe Card",
@@ -685020,7 +685014,7 @@
     "name": "Split Happens",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4411090": {
     "name": "SCP：苍白织者（SCP: Pale Weaver）",
@@ -685056,7 +685050,7 @@
     "name": "Realm's Last Stand",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4423270": {
     "name": "Takeover 2",
@@ -685433,7 +685427,7 @@
     "name": "DRUMP SIMULATOR",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4557130": {
     "name": "Sweep Happens",
@@ -685475,7 +685469,7 @@
     "name": "FragMiner",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4573540": {
     "name": "Shipolis",
@@ -685545,7 +685539,7 @@
     "name": "Ouroboros Solitaire",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4593480": {
     "name": "Eden Camp",
@@ -685791,7 +685785,7 @@
     "name": "WinBolo",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-11"
+    "last_checked": "2026-06-28"
   },
   "4672630": {
     "name": "皮格马利与腐朽国度",
@@ -686158,7 +686152,7 @@
     "name": "君临传奇之风起云涌",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4776970": {
     "name": "Wrenny Lee: Witch-for-Hire!",
@@ -686223,7 +686217,7 @@
     "name": "TypeSlingers",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4789260": {
     "name": "Never Ending Hero RPG",
@@ -686288,7 +686282,7 @@
     "name": "暗层 The Dark Layer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4799700": {
     "name": "Critter Quest",
@@ -686539,7 +686533,7 @@
     "name": "Giant Horse Feeding",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4823390": {
     "name": "The Paint Atelier: Replica Co.",
@@ -686599,12 +686593,12 @@
     "name": "REELS of the DAMNED",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4826530": {
     "name": "漢字でGOGO!",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4826620": {
     "name": "My Useless Hot MILF in the Party",
@@ -686798,7 +686792,7 @@
   "1642440": {
     "name": "Kleopatra",
     "has_chinese": false,
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "1682020": {
     "name": "DELIRIA",
@@ -687578,7 +687572,7 @@
     "name": "Time Takers",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3597000": {
     "name": "Umbranomicon",
@@ -688169,7 +688163,7 @@
     "name": "Spiritura",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4066520": {
     "name": "Trust Your Gut",
@@ -688477,7 +688471,7 @@
     "name": "Boreal Tenebrae Act 0: Sundowning",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-12"
+    "last_checked": "2026-06-28"
   },
   "4228950": {
     "name": "Dark Dreams on Diverging Roads",
@@ -688602,7 +688596,7 @@
   "4290500": {
     "name": "BOXPAST LOV3YOU",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4300400": {
     "name": "Adventurers Shop",
@@ -688895,7 +688889,7 @@
     "name": "Alterum",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-13"
+    "last_checked": "2026-06-28"
   },
   "4424970": {
     "name": "Another Map Simulator",
@@ -689414,7 +689408,7 @@
     "name": "桌面破壞神：掛機ARPG",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4623920": {
     "name": "Philly Ball",
@@ -689491,7 +689485,7 @@
     "name": "Forever Virgin Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4634840": {
     "name": "Justice Project",
@@ -689944,7 +689938,7 @@
     "name": "Traits & Trials",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4748720": {
     "name": "REDHOOD: CONTRACT ASSAULT ACTION",
@@ -690032,7 +690026,7 @@
     "name": "Noyan: Club Chairman",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4763020": {
     "name": "两面爱",
@@ -690378,7 +690372,7 @@
   "4808170": {
     "name": "Skirmish",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4808800": {
     "name": "Naked Man",
@@ -690707,7 +690701,7 @@
     "name": "Crossed Worlds: The Magic Pen",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4831850": {
     "name": "TOUKAN",
@@ -690864,8 +690858,7 @@
   "4840880": {
     "name": "ESKINITA",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4843380": {
     "name": "Hentai MILF Premium",
@@ -690924,7 +690917,7 @@
     "name": "Incarnation - Lifetimes",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "1888760": {
     "name": "Tower Defense Monster",
@@ -691421,7 +691414,7 @@
     "name": "LIGHTPUNK: Law of Inertia",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3694100": {
     "name": "Unshine Arcade",
@@ -691508,13 +691501,13 @@
   "3818520": {
     "name": "Ollie and the Merchant of Dreams",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3822770": {
     "name": "The Last Seed",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "3832030": {
     "name": "BOOST VECTOR EX",
@@ -691901,7 +691894,7 @@
     "name": "Landlord Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4169730": {
     "name": "Black Border 3",
@@ -692203,7 +692196,7 @@
     "name": "Soul Scroll",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4314340": {
     "name": "The Reflection",
@@ -692466,7 +692459,7 @@
     "name": "Astrophobia",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4476430": {
     "name": "Net Gains",
@@ -692553,7 +692546,7 @@
     "name": "Sandwich +1",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4515660": {
     "name": "Control, I'm Not Coming Back",
@@ -692665,7 +692658,7 @@
     "name": "Virus X",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4559430": {
     "name": "Memory Games",
@@ -692791,7 +692784,7 @@
     "name": "GummyGom Delivery",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-13"
+    "last_checked": "2026-06-28"
   },
   "4611030": {
     "name": "Temptation Loop",
@@ -693012,7 +693005,7 @@
     "name": "Armed Together",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4696530": {
     "name": "KRYONULL",
@@ -693114,7 +693107,7 @@
     "name": "BloodJack",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4727720": {
     "name": "Crowned Sun",
@@ -693313,7 +693306,7 @@
     "name": "Hakoniwa Base Ball",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4799240": {
     "name": "山海灵妖录",
@@ -693366,7 +693359,7 @@
     "name": "Monstah",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4811790": {
     "name": "Mercy's Edge",
@@ -693396,7 +693389,7 @@
     "name": "Tattoo Dungeon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4816430": {
     "name": "Kitch Witch",
@@ -693575,13 +693568,13 @@
     "name": "暮光之潮：幻藍秩元戀",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4835800": {
     "name": "StyxVenture",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-13"
+    "app_type": "free",
+    "last_checked": "2026-06-28"
   },
   "4836770": {
     "name": "熊貓喵",
@@ -693611,7 +693604,7 @@
     "name": "Vicelock - Tactical Roguelite RPG",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4843080": {
     "name": "DUPED",
@@ -693778,7 +693771,7 @@
     "name": "The Skyland Chronicles",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "2676450": {
     "name": "Birdminton",
@@ -693950,8 +693943,7 @@
   "3252280": {
     "name": "Onsen 1313",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3284220": {
     "name": "Hyperwar",
@@ -694040,7 +694032,7 @@
     "name": "Sword Saint Soriel",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "3480890": {
     "name": "Feudal Craft",
@@ -694104,8 +694096,7 @@
   "3638860": {
     "name": "CELESTIAL: FIRE & FORGE",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3652410": {
     "name": "ARES 2192",
@@ -694242,7 +694233,7 @@
     "name": "F.E.A.S.T",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3825270": {
     "name": "BOX GAME: SHOWDOWN",
@@ -694290,7 +694281,7 @@
     "name": "Monster Ops 20",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "3853250": {
     "name": "Monster Ops 21",
@@ -694336,7 +694327,7 @@
     "name": "Red Tape Rampage",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3882140": {
     "name": "Man Vs",
@@ -694384,7 +694375,7 @@
     "name": "保卫粮食 Grain Defense",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3931770": {
     "name": "MechShell",
@@ -694490,7 +694481,7 @@
     "name": "DeckWrecking Pirates",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-14"
+    "last_checked": "2026-06-28"
   },
   "4014140": {
     "name": "Freddy Hardest: Z Planet",
@@ -695184,7 +695175,7 @@
     "name": "Legends of Goodness",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4503400": {
     "name": "Scorched Incremental",
@@ -695822,7 +695813,7 @@
     "name": "MH:天空花嫁",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4838310": {
     "name": "NPC Blacksmith Simulator",
@@ -695899,7 +695890,7 @@
     "name": "Space Station 14",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "1293110": {
     "name": "Timeless Adventure: A Journey To Begin",
@@ -696282,7 +696273,7 @@
     "name": "沙金工業 Sandustry",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2764530": {
     "name": "Purble Place 3D",
@@ -696352,7 +696343,7 @@
     "name": "Police Chief Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2948130": {
     "name": "Life of a Thug",
@@ -696411,7 +696402,7 @@
     "name": "Cubic",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "3041640": {
     "name": "Shadey's Quest",
@@ -696641,7 +696632,7 @@
     "name": "Clusterbug",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "3371260": {
     "name": "列烏尼斯的輓歌",
@@ -696775,7 +696766,7 @@
     "name": "Star Haul Tycoon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3570680": {
     "name": "Meltdown",
@@ -696994,7 +696985,7 @@
   "3757510": {
     "name": "Sparrow Country",
     "has_chinese": false,
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3761880": {
     "name": "Night Shippers",
@@ -697748,7 +697739,7 @@
     "name": "防毒少女",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4157400": {
     "name": "Water's Way Down",
@@ -697871,7 +697862,7 @@
     "name": "Void Fragment",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4209160": {
     "name": "Idyll Isle",
@@ -698123,7 +698114,7 @@
     "name": "Legend of Idle",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4311400": {
     "name": "D.I.Y. Warriors",
@@ -698141,7 +698132,7 @@
     "name": "Crunchy Bear: Dig Dig Pals",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4327630": {
     "name": "Glamour Photographer",
@@ -698260,7 +698251,7 @@
     "name": "Cursed Cargo",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4401980": {
     "name": "Ashes of Darkness",
@@ -698446,7 +698437,7 @@
     "name": "Involuntary Fighting Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4455960": {
     "name": "夢幻旅途",
@@ -698475,7 +698466,7 @@
     "name": "電馭惡魔契約協定",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4459770": {
     "name": "Futabasaura",
@@ -698707,7 +698698,7 @@
     "name": "Signal Drift",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4525370": {
     "name": "煉金術大師模擬器：奧秘工坊",
@@ -698784,7 +698775,7 @@
     "name": "Lost in the Fogbound Deadwood",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4548790": {
     "name": "Silent Terminal",
@@ -699021,7 +699012,7 @@
     "name": "Ninja Noboken Episode 2",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4605950": {
     "name": "UNSIGHT",
@@ -699211,7 +699202,7 @@
     "name": "PrayPal",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4657580": {
     "name": "Lewd Dungeon Manager 🔞",
@@ -699241,7 +699232,7 @@
     "name": "Viroblitz",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4662040": {
     "name": "Island Wolves",
@@ -699289,7 +699280,7 @@
     "name": "Scapewatch: Idle MMO",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4676580": {
     "name": "Ramajay! Riddim Rabbit",
@@ -699325,7 +699316,7 @@
     "name": "The Blade",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4689930": {
     "name": "Spin Cycle",
@@ -699501,7 +699492,7 @@
     "name": "Railroad Rummy",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-15"
+    "last_checked": "2026-06-28"
   },
   "4772980": {
     "name": "Dragon Up! Together",
@@ -699578,7 +699569,7 @@
     "name": "STATE Z",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4789420": {
     "name": "Yu Gong Moves Mountains",
@@ -699608,7 +699599,7 @@
     "name": "Mic Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4792250": {
     "name": "Beak Shot",
@@ -699680,7 +699671,7 @@
     "name": "Echoes In Static",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4818310": {
     "name": "墨影突围：无尽生存",
@@ -699902,7 +699893,7 @@
     "name": "Dungebra",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4842460": {
     "name": "FloraFarm",
@@ -700299,7 +700290,7 @@
     "name": "Hand of God",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3002240": {
     "name": "午休戰術",
@@ -700926,7 +700917,7 @@
     "name": "Brutal War",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "3835080": {
     "name": "Terrafarmer",
@@ -701081,7 +701072,7 @@
     "name": "Backrooms: Rogue 0",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "3966650": {
     "name": "Pixplorer",
@@ -701135,13 +701126,13 @@
     "name": "逃離末世：黑商模擬器",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3988990": {
     "name": "我的灵气吸不完",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "3997240": {
     "name": "Osta",
@@ -701342,7 +701333,7 @@
     "name": "貓咪列車長",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4143360": {
     "name": "PILLARS OF DESPAIR - Mission Valoria",
@@ -701898,7 +701889,7 @@
     "name": "Bowling Alley Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4465870": {
     "name": "Let My Family In",
@@ -701946,7 +701937,7 @@
     "name": "Plaa: A New Cast",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4512580": {
     "name": "The Fire Must Be Fed",
@@ -702004,7 +701995,7 @@
     "name": "とぼとぼリカバリー",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4534300": {
     "name": "Weird Water World",
@@ -702050,7 +702041,7 @@
     "name": "War Room: Tactical Sandbox",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4542460": {
     "name": "Czar Ry",
@@ -702219,7 +702210,7 @@
     "name": "Chicken Miner",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4622330": {
     "name": "CD Market - Music Label Sim",
@@ -702425,7 +702416,7 @@
     "name": "Starry Flowers",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4712150": {
     "name": "Black Hole Surfers",
@@ -702455,7 +702446,7 @@
     "name": "RITUAL",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4734860": {
     "name": "Inner Demons",
@@ -702894,7 +702885,7 @@
     "name": "Pop Star Life",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4826200": {
     "name": "Nicotine Merchant Simulator",
@@ -702984,7 +702975,7 @@
     "name": "Juice Stand Tycoon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-16"
+    "last_checked": "2026-06-28"
   },
   "4834000": {
     "name": "Deadlined.",
@@ -703002,7 +702993,7 @@
     "name": "德州撲克 Pixel Texas Hold'em",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4834670": {
     "name": "Bus Simulator : World Tour",
@@ -703062,7 +703053,7 @@
     "name": "天亮之后",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4838790": {
     "name": "群雄战歌：妖火纪元",
@@ -703074,7 +703065,7 @@
     "name": "Hentai Academy: The Professor's Secret",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4839090": {
     "name": "Big Breakfast 2",
@@ -703104,7 +703095,7 @@
     "name": "VOIDRAVE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4840250": {
     "name": "Stellar Stranded",
@@ -703152,7 +703143,7 @@
     "name": "The Art Keeper",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4842990": {
     "name": "Old Time Hockey",
@@ -703194,7 +703185,7 @@
     "name": "検索探偵パテ太郎",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4844130": {
     "name": "Slightly Burnt: A Goose Story",
@@ -703242,7 +703233,7 @@
     "name": "Shadows of Eldemir",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4848220": {
     "name": "CHANNEL ZERO",
@@ -703260,7 +703251,7 @@
     "name": "Splatapult",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4849440": {
     "name": "Sticky Rooms",
@@ -703437,7 +703428,7 @@
     "name": "Titan Force",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "2248010": {
     "name": "Instarion",
@@ -704019,7 +704010,7 @@
     "name": "FLASK",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3721000": {
     "name": "Battle Brewers",
@@ -704095,8 +704086,7 @@
   "3822230": {
     "name": "NINJA MASTER'S",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "3824640": {
     "name": "Miniature Legends",
@@ -704358,7 +704348,7 @@
     "name": "Jiaozi & Shopkeeper",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4071040": {
     "name": "三国：百将牌",
@@ -705002,7 +704992,7 @@
   "4526400": {
     "name": "電影大戦",
     "has_chinese": false,
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4528860": {
     "name": "Ball's Mod",
@@ -705032,7 +705022,7 @@
     "name": "End of End",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-17"
+    "last_checked": "2026-06-28"
   },
   "4547900": {
     "name": "DNO: Lone Courier",
@@ -705115,7 +705105,7 @@
     "name": "Snow Brawl Arena",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4590400": {
     "name": "Raccoon Packer: A Cozy Puzzle Game",
@@ -705602,7 +705592,7 @@
     "name": "Football Club Builder",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4786870": {
     "name": "快烤麵包吧，貓師傅！",
@@ -705656,7 +705646,7 @@
     "name": "暖魂",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4801830": {
     "name": "万象战略",
@@ -705764,7 +705754,7 @@
     "name": "Family Office Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4821610": {
     "name": "CerbCade",
@@ -705776,7 +705766,7 @@
     "name": "Rocoumie and Bouquet",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4823050": {
     "name": "Broken Cycle",
@@ -705788,7 +705778,7 @@
     "name": "Incremental Pain Profit",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4823520": {
     "name": "Escape from Gridlock",
@@ -705962,7 +705952,7 @@
     "name": "The Boo Club",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4841510": {
     "name": "Organ Failure",
@@ -706405,7 +706395,7 @@
     "name": "MOPCORE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "2635320": {
     "name": "Crime: 1997",
@@ -706522,7 +706512,7 @@
     "name": "Isle of Reveries",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "3115420": {
     "name": "My Summer Cottage",
@@ -706587,7 +706577,7 @@
     "name": "Royalty Free-For-All",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "3227750": {
     "name": "Spartacus Blood Arena",
@@ -706957,7 +706947,7 @@
     "name": "Blue Dynasty:城鎮防禦",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "3897440": {
     "name": "Another Shoplifting Simulator",
@@ -707451,7 +707441,7 @@
     "name": "Adventurer's Conquest",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4439550": {
     "name": "Infernal Depths",
@@ -707504,13 +707494,13 @@
     "name": "Lia Fail",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4480270": {
     "name": "The Quiet Order",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4481370": {
     "name": "Winmon: Prologue",
@@ -707753,7 +707743,7 @@
     "name": "OVERCHESS",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4618750": {
     "name": "Roll & Slay : Dice Caster",
@@ -708016,7 +708006,7 @@
     "name": "Cursed Merchant of Kyoto",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4767610": {
     "name": "山河念远",
@@ -708058,7 +708048,7 @@
     "name": "Emotion Hunter",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4778170": {
     "name": "The Fallen Vanguard",
@@ -708166,7 +708156,7 @@
     "name": "Paystreak",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4810100": {
     "name": "Molten Jaw",
@@ -708370,7 +708360,7 @@
     "name": "Royale Battle",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4840410": {
     "name": "Gatebound: Chronicles of Valor",
@@ -708478,7 +708468,7 @@
     "name": "Football Commissioner",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-18"
+    "last_checked": "2026-06-28"
   },
   "4846330": {
     "name": "Monoka",
@@ -708663,7 +708653,7 @@
     "name": "Fatal Nights",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "1996090": {
     "name": "蒸氣世界",
@@ -708747,7 +708737,7 @@
     "name": "妖怪之國",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "2603400": {
     "name": "Solitude",
@@ -708883,7 +708873,7 @@
     "name": "The GIF Game",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2916530": {
     "name": "Andrew's Nightmare",
@@ -708991,7 +708981,7 @@
     "name": "Fatal Train",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3225880": {
     "name": "Lenin Street Geek Shop",
@@ -709420,7 +709410,7 @@
     "name": "Between These Two",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4072200": {
     "name": "矮人炮弹 Dwarven Cannonball",
@@ -709568,7 +709558,7 @@
     "name": "Hellshot",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4237470": {
     "name": "Where’s My Lewd Deck? Deep ’n Dive",
@@ -709638,7 +709628,7 @@
     "name": "Down Below",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4282810": {
     "name": "From Devil's Womb",
@@ -709753,7 +709743,7 @@
     "name": "砍价模拟器",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4379150": {
     "name": "Way of Horny: Lucky Plumber",
@@ -709827,7 +709817,7 @@
     "name": "Gravedigger",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4440990": {
     "name": "Glass",
@@ -710393,13 +710383,13 @@
     "name": "Spark-A-Doodle",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "4780630": {
     "name": "TILEZ",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4781400": {
     "name": "武林绝学之功夫传奇",
@@ -710417,7 +710407,7 @@
     "name": "The Lost File",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4800340": {
     "name": "妖潮：以殺證道",
@@ -710447,7 +710437,7 @@
     "name": "Sheep Move Together",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4806070": {
     "name": "Routes and Forges",
@@ -710723,7 +710713,7 @@
     "name": "Hollow Signal",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4841200": {
     "name": "Nuns With Guns",
@@ -710735,7 +710725,7 @@
     "name": "Curse of Baghdad",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4841700": {
     "name": "Concert of Power",
@@ -710747,7 +710737,7 @@
     "name": "LIVORA",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4842550": {
     "name": "7743",
@@ -710759,7 +710749,7 @@
     "name": "One Stroke Hunter",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4843140": {
     "name": "YOLKA: 90s New Year Simulator",
@@ -710813,7 +710803,7 @@
     "name": "Lucifaria",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4847940": {
     "name": "Huiyu AI Trip",
@@ -710849,7 +710839,7 @@
     "name": "FOCUS",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-19"
+    "last_checked": "2026-06-28"
   },
   "4849330": {
     "name": "SYSCALL: RING ZERO",
@@ -710921,7 +710911,7 @@
     "name": "GUNBUTCHER",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4858190": {
     "name": "A Game About Shooting Ducks",
@@ -710993,7 +710983,7 @@
     "name": "Morhval: Ravenglaire",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4861750": {
     "name": "Asteroid Extractors",
@@ -711017,7 +711007,7 @@
     "name": "Grandpa's Euchre",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4864280": {
     "name": "Hollow Orbit",
@@ -711209,7 +711199,7 @@
     "name": "The Last Signal",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-20"
+    "last_checked": "2026-06-28"
   },
   "2984800": {
     "name": "Double Whammy",
@@ -711888,7 +711878,7 @@
   "4367280": {
     "name": "Boing!",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4372900": {
     "name": "Diamond Island",
@@ -712246,7 +712236,7 @@
     "name": "三角圓舞曲 -Triple Pairing-",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4715890": {
     "name": "Worldforge : Construct & Destroy",
@@ -712390,7 +712380,7 @@
     "name": "Above the Sun",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4840120": {
     "name": "文物修复师 Relic Restorer",
@@ -712605,7 +712595,7 @@
     "name": "Eleven Sunrises",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "2092160": {
     "name": "商人傳說2",
@@ -712629,7 +712619,7 @@
     "name": "Age of Sail",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "2305750": {
     "name": "Blood & Ash",
@@ -712804,7 +712794,7 @@
     "name": "Salvage",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "3233260": {
     "name": "Case Files: Internal Affairs",
@@ -713049,7 +713039,7 @@
     "name": "RabbitHole Island : Turn-based Vtuber Battles",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "3952790": {
     "name": "Desktop Rave: Idle Audio Club",
@@ -713067,7 +713057,7 @@
     "name": "Bhangarh: The Untold Story",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "3983500": {
     "name": "YOUR ALIEN ROOMMATE EMILY",
@@ -713632,7 +713622,7 @@
     "name": "Emberline",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4762540": {
     "name": "Cow Heard",
@@ -713650,7 +713640,7 @@
     "name": "The Other Side",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-21"
+    "last_checked": "2026-06-28"
   },
   "4783700": {
     "name": "Ashen Throne",
@@ -713758,7 +713748,7 @@
     "name": "Kingdom Chronicle",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4858550": {
     "name": "MiniCook",
@@ -713982,7 +713972,7 @@
     "name": "4:AM",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "2558850": {
     "name": "价值投资者：50年生涯",
@@ -714104,7 +714094,7 @@
     "name": "Late Shift",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2898620": {
     "name": "Forgotten Vale",
@@ -714144,7 +714134,7 @@
     "name": "The Cave Diver",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3059000": {
     "name": "Loded Depths",
@@ -714156,7 +714146,7 @@
     "name": "Starcrest Saga",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3074330": {
     "name": "Dead Dock Protocol",
@@ -714231,7 +714221,7 @@
     "name": "Shards of Order",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3433270": {
     "name": "MALCADE",
@@ -714347,7 +714337,7 @@
   "3628810": {
     "name": "Decked Out",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3633120": {
     "name": "為慾望的世界獻上祝福！",
@@ -714542,7 +714532,7 @@
     "name": "Fyte",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3879680": {
     "name": "分裂細胞 (Cells of Division)",
@@ -715249,7 +715239,7 @@
     "name": "Overdrive Reloaded",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4575570": {
     "name": "諾提里森：於黎明之前－珍藏版",
@@ -715464,7 +715454,7 @@
     "name": "ZeroEco",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4727910": {
     "name": "Tisis",
@@ -715511,7 +715501,7 @@
     "name": "Alcurio",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4736160": {
     "name": "Liminal Descenders",
@@ -715589,7 +715579,7 @@
     "name": "Perfumed Palaces: Purgatory Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4809480": {
     "name": "Push It!",
@@ -715709,7 +715699,7 @@
     "name": "CUEQUENCE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-22"
+    "last_checked": "2026-06-28"
   },
   "4849130": {
     "name": "Kıvam",
@@ -715727,7 +715717,7 @@
     "name": "DamnedSchool",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4852570": {
     "name": "Pidgeon Pocket",
@@ -715787,7 +715777,7 @@
     "name": "By My Side",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4860480": {
     "name": "Breadwalk",
@@ -715877,7 +715867,7 @@
     "name": "Junkoid",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4868140": {
     "name": "Gap Storm",
@@ -716141,7 +716131,7 @@
     "name": "Swimming Dynasty",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "2482760": {
     "name": "Hunting Simulator 3",
@@ -716748,7 +716738,7 @@
     "name": "Alchemist Madness",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "3827330": {
     "name": "GameShop Simulator",
@@ -717157,7 +717147,7 @@
   "4260370": {
     "name": "Prism Wilds",
     "has_chinese": false,
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4268460": {
     "name": "ShoreTiles",
@@ -717428,7 +717418,7 @@
     "name": "手動提款機",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4458930": {
     "name": "snaze",
@@ -717536,7 +717526,7 @@
     "name": "SUPER SCORE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4532840": {
     "name": "Lemy",
@@ -717622,7 +717612,7 @@
   "4571190": {
     "name": "Illegal Alien Tower Defense",
     "has_chinese": false,
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4575630": {
     "name": "Blast Vein",
@@ -717855,7 +717845,7 @@
     "name": "Still Open: Taskbar Cafe Idle",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4670160": {
     "name": "Ember Folks",
@@ -718077,7 +718067,7 @@
     "name": "Abyss Outpost: Auto Frontline",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4779440": {
     "name": "mobb_inc.",
@@ -718377,7 +718367,7 @@
     "name": "Cosmic Survivor",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4841680": {
     "name": "Nanma, A Tecelã das Sombras",
@@ -718419,7 +718409,7 @@
     "name": "Trenite Engineer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4846800": {
     "name": "1000王子: ChouChou Condo (甜心公寓)",
@@ -718509,7 +718499,7 @@
     "name": "Labeloop",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-23"
+    "last_checked": "2026-06-28"
   },
   "4855720": {
     "name": "Latticefall: Zombie setting",
@@ -718611,7 +718601,7 @@
     "name": "OUTWORKS",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4860010": {
     "name": "Medieval Ascendant",
@@ -718659,7 +718649,7 @@
     "name": "Trying to Wake Up",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4862710": {
     "name": "Morvus",
@@ -718707,7 +718697,7 @@
     "name": "Novalex Project Zero",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4865840": {
     "name": "Football Academy Director",
@@ -718791,7 +718781,7 @@
     "name": "Car Hustle Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4870920": {
     "name": "The Hope Incident",
@@ -718893,7 +718883,7 @@
     "name": "shark",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4876090": {
     "name": "Rugby World Championship",
@@ -718934,7 +718924,7 @@
   "1400660": {
     "name": "Rise of Piracy",
     "has_chinese": false,
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "1475310": {
     "name": "Factory Magnate",
@@ -719063,7 +719053,7 @@
     "name": "Farewell To Sunshower",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "2593340": {
     "name": "Wonderia",
@@ -719544,7 +719534,7 @@
     "name": "Beloved Bound",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "3892270": {
     "name": "Gamble With Your Friends",
@@ -719578,7 +719568,7 @@
     "name": "Dictapoint",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3971730": {
     "name": "Donutal",
@@ -719754,7 +719744,7 @@
     "name": "SokoTerm",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4163600": {
     "name": "Galactic Overthrow",
@@ -719873,7 +719863,7 @@
     "name": "The Obsession",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4252140": {
     "name": "It's Spreading",
@@ -719908,7 +719898,7 @@
     "name": "Redast",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4286200": {
     "name": "Seasonaut",
@@ -719946,7 +719936,7 @@
     "name": "SkyDrop",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4299290": {
     "name": "ARB: Anomalous Research Bureau - Museum",
@@ -719969,7 +719959,7 @@
     "name": "怪異対策特異機関ー幻視天研所ー",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4340250": {
     "name": "Myriad Realms",
@@ -720016,7 +720006,7 @@
     "name": "Flappy Together",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4372750": {
     "name": "最後敕令",
@@ -720147,7 +720137,7 @@
     "name": "CORGI & WOOLLY - Little Horizon -",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4482510": {
     "name": "Swords and Guns",
@@ -720232,7 +720222,7 @@
     "name": "Moral Dilemma: Breaking Character",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4529240": {
     "name": "Lumenal: A Photo Break",
@@ -720373,7 +720363,7 @@
     "name": "Click and Slash",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4599370": {
     "name": "Word Space Blaster",
@@ -720565,7 +720555,7 @@
     "name": "Fix-it Corp.",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4714650": {
     "name": "Freestyle Dunker",
@@ -720607,7 +720597,7 @@
     "name": "Casa de Cuy: A Finca Full of Fluff",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4767420": {
     "name": "Forest Lookout",
@@ -720721,7 +720711,7 @@
     "name": "Fairwell: A Cozy Golf Revival",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4826430": {
     "name": "Neostalker",
@@ -720745,7 +720735,7 @@
     "name": "Nebula Live: Galactic trials",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4829530": {
     "name": "DOI: Defense Shooter",
@@ -720763,7 +720753,7 @@
     "name": "Turnbuckle Hearts",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4836000": {
     "name": "30 Days: The Last Melody",
@@ -720787,13 +720777,13 @@
     "name": "Centuria Quest",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4839350": {
     "name": "Yagodki",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4839770": {
     "name": "Abyrith",
@@ -721081,7 +721071,7 @@
     "name": "Camp & Conquer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-24"
+    "last_checked": "2026-06-28"
   },
   "4876350": {
     "name": "Cold Doctor & Noble Lady Fall for Me",
@@ -721099,7 +721089,7 @@
     "name": "Bunker Buster",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4877140": {
     "name": "AfterClerk",
@@ -721250,7 +721240,7 @@
     "name": "Sich",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "2294430": {
     "name": "The Fabric of the Mind",
@@ -721652,7 +721642,7 @@
     "name": "Frick It",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3414340": {
     "name": "KAMI 2",
@@ -721768,12 +721758,12 @@
     "name": "Fervent: Sovereign Struggle",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "3665510": {
     "name": "DogPunk",
     "has_chinese": false,
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3679080": {
     "name": "七大罪：Origin",
@@ -721928,7 +721918,7 @@
     "name": "SOR.OP: Dark Shades",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3891880": {
     "name": "Orbital",
@@ -721957,7 +721947,7 @@
     "name": "DryFire",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3923070": {
     "name": "Asteroid Boom Cosmic Courier",
@@ -722072,7 +722062,7 @@
     "name": "PITANIE",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4080030": {
     "name": "The Message from Deep Space",
@@ -722184,7 +722174,7 @@
   "4190440": {
     "name": "Orders, Captain!",
     "has_chinese": false,
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4191980": {
     "name": "Zip Up",
@@ -722363,7 +722353,7 @@
     "name": "Marzu",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4313460": {
     "name": "上架！遊戲開髮局",
@@ -722833,7 +722823,7 @@
     "name": "Stack Mates",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4704350": {
     "name": "NinFit",
@@ -723090,13 +723080,13 @@
     "name": "忌品管理部",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4854540": {
     "name": "Sluice That Goose!",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4855530": {
     "name": "栀子与荆棘",
@@ -723126,7 +723116,7 @@
     "name": "HiveBreak",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4862080": {
     "name": "Seedverse",
@@ -723168,7 +723158,7 @@
     "name": "推彈小子",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4867280": {
     "name": "Steal The Show",
@@ -723252,7 +723242,7 @@
     "name": "HALFLIGHT",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-25"
+    "last_checked": "2026-06-28"
   },
   "4878070": {
     "name": "Tormented Souls Idle",
@@ -723473,7 +723463,7 @@
     "name": "Bloodcrave",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2413950": {
     "name": "Final Sentence",
@@ -723959,7 +723949,7 @@
     "name": "Malignant Survivors 2",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3648730": {
     "name": "Blood Vial",
@@ -724039,7 +724029,7 @@
     "name": "Pull the Beer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3819770": {
     "name": "Dragon Ruins II: Aftermath",
@@ -724102,7 +724092,7 @@
     "name": "Incoherence: Dark Rooms",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "3938260": {
     "name": "Bumper Bout",
@@ -724408,7 +724398,7 @@
     "name": "Roller Coaster Park Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4282480": {
     "name": "鉄道運行管理シミュレーション",
@@ -724419,7 +724409,7 @@
     "name": "Horizon Sandbox",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4289280": {
     "name": "Wizard 64",
@@ -724671,7 +724661,7 @@
     "name": "Karting Core",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4551090": {
     "name": "Unwoven",
@@ -724754,7 +724744,7 @@
     "name": "Eldritch Cards: The Lovecraftian Dungeon Crawler Game",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4602710": {
     "name": "Glassbound 瓶中物語",
@@ -724810,8 +724800,7 @@
   "4630420": {
     "name": "Zetrya: Dungeon Dive",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4631350": {
     "name": "Forest Raid",
@@ -724964,7 +724953,7 @@
     "name": "無休夏日綜合症",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4715270": {
     "name": "究極太陽戰爭",
@@ -724982,7 +724971,7 @@
     "name": "Racc & Roll",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4730460": {
     "name": "Farm Bang",
@@ -725082,7 +725071,7 @@
     "name": "Mining Away!",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4766500": {
     "name": "Nybble",
@@ -725136,7 +725125,7 @@
     "name": "Supermarket Crashout",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4785810": {
     "name": "I Am the Demon King: Stop Sun Wukong",
@@ -725154,7 +725143,7 @@
     "name": "海城風物",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4796460": {
     "name": "walstad loom",
@@ -725328,7 +725317,7 @@
     "name": "薇薇",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4844150": {
     "name": "HardFormer",
@@ -725394,7 +725383,7 @@
     "name": "Cat Eats Sushi",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4855160": {
     "name": "Helios Chess",
@@ -725424,7 +725413,7 @@
     "name": "FLOWORKS",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4858790": {
     "name": "The Veiled Atlas: A Cycle of Falls",
@@ -725484,7 +725473,7 @@
     "name": "Sushi Restaurant Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4863430": {
     "name": "Hills Cry",
@@ -725496,7 +725485,7 @@
     "name": "Terraforming Titans",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4864210": {
     "name": "The Unseeing",
@@ -725640,7 +725629,7 @@
     "name": "Coming Forth by Day",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4871540": {
     "name": "Rai League",
@@ -725652,7 +725641,7 @@
     "name": "Beyond Horizon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4872120": {
     "name": "Vampire Match",
@@ -725688,13 +725677,13 @@
     "name": "Your Screen Friend",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4873130": {
     "name": "MMOS: MMO Simulator",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4873270": {
     "name": "Dark City: Scavenge Craft Power",
@@ -725760,7 +725749,7 @@
     "name": "Nosteria",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4878720": {
     "name": "退款",
@@ -725820,7 +725809,7 @@
     "name": "Kitchen of Gods",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4884010": {
     "name": "Project Eel",
@@ -725838,7 +725827,7 @@
     "name": "魔法少女甜心 Magical Girl Sweetheart",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4886170": {
     "name": "Hand Physics Lab",
@@ -725856,7 +725845,7 @@
     "name": "Sporebound",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-26"
+    "last_checked": "2026-06-28"
   },
   "4888040": {
     "name": "Soldier Offensive",
@@ -725874,7 +725863,7 @@
     "name": "Project Matter",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4890990": {
     "name": "RoguePunk",
@@ -726017,7 +726006,7 @@
     "name": "異界無賴-胡鬧但嚴肅的RPG",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "2405680": {
     "name": "LoYuno - Horror Escape",
@@ -726128,7 +726117,7 @@
     "name": "降臨之地",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3136460": {
     "name": "Ground Water - Episode of Dhanra",
@@ -726163,13 +726152,13 @@
     "name": "Corrupted Worlds",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3220640": {
     "name": "Synvector",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3254010": {
     "name": "Quiet Soul",
@@ -726203,7 +726192,7 @@
     "name": "Cappy & Tappy: Temples of Peril",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3398160": {
     "name": "SUPER DEBT",
@@ -726227,7 +726216,7 @@
     "name": "Starbright Agency",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3454890": {
     "name": "Luxmithar",
@@ -726285,7 +726274,7 @@
     "name": "Ascent Of Eternity",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "3627880": {
     "name": "时渊：溯光之行",
@@ -726401,7 +726390,7 @@
     "name": "飛燕的短劍",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4017710": {
     "name": "L'ultimo Partenopeo",
@@ -726437,7 +726426,7 @@
     "name": "Trick or Treat: The Legend of Samhain",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4101290": {
     "name": "Overtrick",
@@ -726531,7 +726520,7 @@
     "name": "FPV Skyline",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4245380": {
     "name": "The Shaman Diary",
@@ -726632,8 +726621,7 @@
   "4356770": {
     "name": "Lost In Dimensions",
     "has_chinese": false,
-    "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4365550": {
     "name": "Run Chubby Run",
@@ -726727,7 +726715,7 @@
     "name": "GearGrave",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4459610": {
     "name": "Gem Party",
@@ -726845,7 +726833,7 @@
     "name": "apochess",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4579630": {
     "name": "Bounce Rush 跟你爆了",
@@ -726921,13 +726909,13 @@
     "name": "Sons of the Arena: Pollice Verso",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4687430": {
     "name": "Life and Lemon",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4696630": {
     "name": "Hi-Lo: Card Roguelike",
@@ -726945,7 +726933,7 @@
     "name": "Rock Band",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4698340": {
     "name": "The Incident",
@@ -726963,7 +726951,7 @@
     "name": "Robits: Quantum Descent",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4712720": {
     "name": "Musica",
@@ -727011,7 +726999,7 @@
     "name": "TNOC",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4740290": {
     "name": "Aimi Desktop Friends：Aimi桌面伴侣",
@@ -727125,7 +727113,7 @@
     "name": "Backrooms: Liminal Egress",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4824140": {
     "name": "Chronages",
@@ -727143,7 +727131,7 @@
     "name": "Jacob's Islands",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4829670": {
     "name": "Null Cipher",
@@ -727161,7 +727149,7 @@
     "name": "ZodiacLottery",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4840350": {
     "name": "東方天流宮 ~ Heavenly Gathering of Clouds",
@@ -727233,7 +727221,7 @@
     "name": "Shadows of Beginnings",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4855420": {
     "name": "世界不需要败犬 - ThEeNDoFMYwOrLd -",
@@ -727251,7 +727239,7 @@
     "name": "Evidence Officer",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4861100": {
     "name": "O2",
@@ -727275,19 +727263,19 @@
     "name": "SCRIBBLE HUNT",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4866000": {
     "name": "Ore Bastards",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4866420": {
     "name": "ゲイトトゥダイ",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4867920": {
     "name": "HELLMUTH",
@@ -727329,7 +727317,7 @@
     "name": "Anomaly Control Division",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4872800": {
     "name": "Lucky Pocket",
@@ -727353,7 +727341,7 @@
     "name": "三國志:進擊",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4877160": {
     "name": "Diagnosis: Room 101",
@@ -727407,7 +727395,7 @@
     "name": "No Reserve",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4881550": {
     "name": "GEL RUN",
@@ -727461,7 +727449,7 @@
     "name": "GodWright",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4884960": {
     "name": "VESSELS: Noiret Mansion",
@@ -727497,7 +727485,7 @@
     "name": "Hermitage",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4889190": {
     "name": "Fijian Dominatrixes Are the Best",
@@ -727521,7 +727509,7 @@
     "name": "Boompaw",
     "has_chinese": false,
     "app_type": "coming_soon",
-    "last_checked": "2026-06-27"
+    "last_checked": "2026-06-28"
   },
   "4890150": {
     "name": "EMIT:Embrace Beyond Time",
@@ -727552,5 +727540,1180 @@
     "has_chinese": false,
     "app_type": "coming_soon",
     "last_checked": "2026-06-27"
+  },
+  "828190": {
+    "name": "M.E.C.H.A.: Memory Erasure Control of Hover Attractor",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "1002470": {
+    "name": "看星星-群星突襲-",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "1157900": {
+    "name": "Ten Thousand Coins: The Golden Merchant",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "1742110": {
+    "name": "Demon Lord: Clicker",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "1778140": {
+    "name": "Ghost Network : Dark Hacker",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "1830160": {
+    "name": "Reloader: subject_alpha",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "1871640": {
+    "name": "The Backworld",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2003340": {
+    "name": "Romanpunk",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2069190": {
+    "name": "Prisma Light",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2129570": {
+    "name": "Attempt to Survive",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2216190": {
+    "name": "Stel",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2247830": {
+    "name": "Holo & Veil",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2318090": {
+    "name": "Sole Salvation",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2471680": {
+    "name": "廢柴遜練師(Risimon)",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2584510": {
+    "name": "Telegraphist 1920: Beats of War",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2611920": {
+    "name": "Unguided",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2629530": {
+    "name": "Grindcore",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2663360": {
+    "name": "Aster Initiative",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2720940": {
+    "name": "Book Smugglers",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "2776360": {
+    "name": "Luz Mala",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2815740": {
+    "name": "Andy Blast Vs The Forces of Evil",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2927420": {
+    "name": "Moon Rat",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "2939200": {
+    "name": "PROT",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3018460": {
+    "name": "致命多巴胺",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3074590": {
+    "name": "HOVERDRIVE",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3110760": {
+    "name": "Alabaster Dawn",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "3118840": {
+    "name": "Sibir",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3148400": {
+    "name": "Sky Scaffold",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3180340": {
+    "name": "RIG Riot",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3206730": {
+    "name": "Arraywrap",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3207200": {
+    "name": "BEANDEJO",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3232860": {
+    "name": "奥ヶ淵商店街",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3235390": {
+    "name": "Ballerspiel",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3310930": {
+    "name": "Hue Hooligans",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3338080": {
+    "name": "Juice factory",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3369150": {
+    "name": "Destiny Spire",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3393280": {
+    "name": "Anime Shop Simulator ✨",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3397260": {
+    "name": "邊界之城：瑪麗亞公理 第一章",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3397930": {
+    "name": "Survival Time‌",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3432200": {
+    "name": "Top Check: A Chess Card Game",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3451820": {
+    "name": "Plates of Peril",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3458250": {
+    "name": "IN HEAT: Honeymoon! 3D",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3470140": {
+    "name": "METAMORPHOSIS",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3474070": {
+    "name": "Magnavis",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3514000": {
+    "name": "Crazy Life",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3529650": {
+    "name": "Turn Turn Turn Based!",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3534650": {
+    "name": "Jet Birds",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3552590": {
+    "name": "動物麵包店",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3613050": {
+    "name": "Gravebound",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3615970": {
+    "name": "Vesper's Hunt",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3634330": {
+    "name": "Income Roads",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3638650": {
+    "name": "The Internal",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3638660": {
+    "name": "Tyrant Tactics: Birth of Revolution",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3683780": {
+    "name": "Off the Text",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3697350": {
+    "name": "GTL Schedule",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3703200": {
+    "name": "凉茶王",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3727200": {
+    "name": "a permanent echo",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3744470": {
+    "name": "Ezalm : Magic's Memory",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3784610": {
+    "name": "Foundlings",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3806630": {
+    "name": "DEFEAT THE GOBLIN KING",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3842830": {
+    "name": "Andread",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3848520": {
+    "name": "PROJECT LEVELS",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3912530": {
+    "name": "Plate And Profit",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3936610": {
+    "name": "地產大亨：星際大戰 英雄 vs 惡棍",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3946180": {
+    "name": "When Stars Collide",
+    "has_chinese": false,
+    "app_type": "free",
+    "last_checked": "2026-06-28"
+  },
+  "3966340": {
+    "name": "モーキス",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "3975250": {
+    "name": "Merry Crisis",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4012590": {
+    "name": "Windweaver",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4012750": {
+    "name": "Hamster Quest",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4033710": {
+    "name": "The Butcher's Village™",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4050810": {
+    "name": "Ichorous",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4062250": {
+    "name": "Crim Ludus",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4069800": {
+    "name": "Global Conflict Blue: Horizon",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4075840": {
+    "name": "Front Page",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4077720": {
+    "name": "Jeremy, No!",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4081760": {
+    "name": "Bucket Tag",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4094340": {
+    "name": "Explore the Universe 2175",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4097180": {
+    "name": "spookY2K",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4098630": {
+    "name": "Suika Evolution: Shake & Merge",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4098770": {
+    "name": "PUNCH ARENA",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4102600": {
+    "name": "Chicken Frontier",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4123960": {
+    "name": "Definitely Not NPC",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4135810": {
+    "name": "Monster Lily",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4148890": {
+    "name": "Dribble Deck",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4150590": {
+    "name": "LIMITLESS: Physics Bike Challenge",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4171930": {
+    "name": "PNEUMA",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4175150": {
+    "name": "Muroboros",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4203260": {
+    "name": "LouveSystems' Realms",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4204940": {
+    "name": "寄宿之戀",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "4210930": {
+    "name": "Under Heaven Or Hell",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4213270": {
+    "name": "Rocket Buddies",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4218680": {
+    "name": "Bird Game 3",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "4237900": {
+    "name": "生于午夜",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4241600": {
+    "name": "Five Arcade",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4244530": {
+    "name": "Towerlings",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4256150": {
+    "name": "Erratum",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4265650": {
+    "name": "Oil Empire",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4265820": {
+    "name": "MEATBALLS FARM",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4276800": {
+    "name": "Spin, Baby, Spin!",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4289760": {
+    "name": "Business War",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4314850": {
+    "name": "Live Fishing",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4316050": {
+    "name": "Yaxi Taxi",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4326170": {
+    "name": "Esports Manager: FPS",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4330090": {
+    "name": "This Game is Simple",
+    "has_chinese": false,
+    "app_type": "free",
+    "last_checked": "2026-06-28"
+  },
+  "4341790": {
+    "name": "Keep Rollin!",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4350470": {
+    "name": "淵旅殘章",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4357270": {
+    "name": "ACCRETION",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4364510": {
+    "name": "Peepo Wars",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4370720": {
+    "name": "Echoes of the Dark Tomb",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4377910": {
+    "name": "Entropy Department",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4383440": {
+    "name": "Not Yet",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4388710": {
+    "name": "Hypernova",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4396660": {
+    "name": "Cat Mirror",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "4398870": {
+    "name": "ETCH",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4421540": {
+    "name": "Mauled Horde",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4461420": {
+    "name": "Kings Archer VR",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4466240": {
+    "name": "Fox Shooter",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "4478770": {
+    "name": "Sotidrokhima 2: Against Eternity",
+    "has_chinese": false,
+    "app_type": "free",
+    "last_checked": "2026-06-28"
+  },
+  "4486840": {
+    "name": "Perfect Son-In-Law: Hidden S-Rank",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4500780": {
+    "name": "东方求财史记 Touhou: Records of Wealth-Seeking",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "4505520": {
+    "name": "こちら株式会社魔王軍接待課",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4507720": {
+    "name": "黒猫の占星便　Melodiac ：Astral Cat Express",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4525890": {
+    "name": "Kick&Rip",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4528890": {
+    "name": "Incrementoad",
+    "has_chinese": false,
+    "app_type": "free",
+    "last_checked": "2026-06-28"
+  },
+  "4541440": {
+    "name": "彼岸花",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4545700": {
+    "name": "Enjoy Your Stay",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4555950": {
+    "name": "The Office Void",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4568220": {
+    "name": "Panchofobia",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4570150": {
+    "name": "This Week",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4579700": {
+    "name": "Rites of Accord",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4587130": {
+    "name": "綠野方塊島",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4588400": {
+    "name": "Witchmarked",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4595340": {
+    "name": "重启人生",
+    "has_chinese": true,
+    "last_checked": "2026-06-28"
+  },
+  "4596870": {
+    "name": "NumberMaxxing",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4597870": {
+    "name": "Minnow",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4597910": {
+    "name": "Keep Printing",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4606590": {
+    "name": "The Adventures of Graham",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4612020": {
+    "name": "刻命花嫁 Möbius Brides",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4622170": {
+    "name": "Date For Dead",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4636700": {
+    "name": "Fishing Fever",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4637480": {
+    "name": "Super Ragdoll Runner Ultimate",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4639450": {
+    "name": "CandyPop",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4644470": {
+    "name": "Neon Arcade",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4650720": {
+    "name": "Deadhand Theater",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4654140": {
+    "name": "Tethyscope",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4654980": {
+    "name": "Bio-Breaker",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4659100": {
+    "name": "Pizza Portale!! ",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4681910": {
+    "name": "Little King Unchained",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4693030": {
+    "name": "Congratulations On Your Purchase",
+    "has_chinese": false,
+    "last_checked": "2026-06-28"
+  },
+  "4694600": {
+    "name": "Whispers Of Gods",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4713070": {
+    "name": "Misdamnation",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4713190": {
+    "name": "Crown Of Blight",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4728610": {
+    "name": "古咒迷途2渊海 lost curse 2 abyssal",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4730580": {
+    "name": "Before the Tee",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4736900": {
+    "name": "歌舞伎町物語：深夜少女",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4738910": {
+    "name": "Labyrinth A Way Out",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4739690": {
+    "name": "Immortal Generals",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4760310": {
+    "name": "Long Carnage",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4763380": {
+    "name": "不妙！突如其來的同居生活",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4773610": {
+    "name": "Solar Frontier",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4774090": {
+    "name": "Uncast: Duel of Wizards",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4774820": {
+    "name": "Smashville Detective Agency",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4783310": {
+    "name": "Re:collect",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4796220": {
+    "name": "磁帶偵探",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4803330": {
+    "name": "Metal: Orbital Arena",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4806050": {
+    "name": "Gatos Adventure",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4808850": {
+    "name": "Window Seat",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4810040": {
+    "name": "叹观止的古修模拟器",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4828390": {
+    "name": "Forsaken Fleet",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4828870": {
+    "name": "Reborn: Lost",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4829220": {
+    "name": "101 Cats in Budapest",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4835690": {
+    "name": "Neno Havoc",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4838470": {
+    "name": "小小吸血姬",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4847900": {
+    "name": "Lofelia's Cozy Corner",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4849630": {
+    "name": "Vape Store Miami: Prologue",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4851260": {
+    "name": "Warehouse Simulator",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4851720": {
+    "name": "Monster And Continent",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4853610": {
+    "name": "Taskbar Syndicate",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4861620": {
+    "name": "Jigsaw Diorama: The Alchemist and the Eclipse",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4862570": {
+    "name": "Green Suits",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4862690": {
+    "name": "Slim Flamingo Vs The 1%",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4867690": {
+    "name": "桌喵",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4872140": {
+    "name": "Sydwater",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4876180": {
+    "name": "Sundays on the Ridge",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4876320": {
+    "name": "Behind the Screen",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4876340": {
+    "name": "Hentai Academy: Sweetheart",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4876870": {
+    "name": "Squoids",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4878120": {
+    "name": "Alice & Aidy: The Big Adventure",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4879540": {
+    "name": "Escape Them",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4880210": {
+    "name": "Hammered Heroes",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4884110": {
+    "name": "Ni-Vanuatu Dominatrixes Are the Best",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4884440": {
+    "name": "Scary Stories: Grotesque",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4885620": {
+    "name": "Ocean Rush",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4886100": {
+    "name": "魔法少女甜心3D Magical Girl Sweetheart 3D",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4886580": {
+    "name": "Dither Paradox",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4887610": {
+    "name": "Last Rail",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4889220": {
+    "name": "Speff",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4891090": {
+    "name": "Sweet Club",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
+  },
+  "4894530": {
+    "name": "Arenfall",
+    "has_chinese": false,
+    "app_type": "coming_soon",
+    "last_checked": "2026-06-28"
   }
 }
